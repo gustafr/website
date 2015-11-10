@@ -14,6 +14,7 @@ gem 'middleman-search_engine_sitemap'
 gem 'neat', "~> 1.7.2"
 
 gem 'middleman-dotenv', '~> 1.0'
+gem 'middleman-deploy', '~> 1.0'
 
 gem 'puma', '~> 2.7'
 

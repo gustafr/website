@@ -12,7 +12,7 @@ Dir["lib/*.rb"].each { |file| require file }
 activate :directory_indexes
 activate :meta_tags
 
-set :url_root, 'http://www.makersacademy.com'
+set :url_root, 'http://new.makersacademy.se'
 activate :search_engine_sitemap
 
 # Change Compass configuration
@@ -70,7 +70,7 @@ set :images_dir, 'images'
 
 sprockets.append_path File.join root, 'bower_components'
 
-set :apply_form_url, "https://apply.makersacademy.com"
+set :apply_form_url, "https://apply.makersacademy.se"
 
 # Redirects from old site urls
 redirect "payments/new.html", to: "#{config.apply_form_url}/payments/new"
@@ -93,6 +93,15 @@ redirect "blog.html", to: "http://blog.makersacademy.com"
 redirect "payments.html", to: "payment.html"
 redirect "partners.html", to: "employers.html"
 
+activate :deploy do |deploy|
+  deploy.method          = :rsync
+  deploy.host            = 'makersacademy.se'
+  deploy.path            = '/var/www/html/newmakers'
+  deploy.user            = 'soundblab'
+  deploy.build_before    = true
+  deploy.clean           = true
+end
+
 configure :development do
   activate :livereload
   set :mixpanel_token, 'f3e503bb7803dd7089f5b4124baa03a4'
@@ -106,7 +115,6 @@ end
 
 # Build-specific configuration
 configure :build do
-
   activate :imageoptim do |options|
     options.pngout    = false
     options.svgo      = false
@@ -133,7 +141,7 @@ configure :build do
 
   set :show_baseline_grid, false
 
-  #Filewatcher ignore list
+  # Filewatcher ignore list
   set :file_watcher_ignore,[
       /^bin(\/|$)/,
       /^\.bundle(\/|$)/,
