@@ -5,13 +5,13 @@
         %li
           %h3 Follow Us
         %li
-          = link_to "Facebook", "http://www.facebook.com/MakersAcademy", target: "_blank"
+          = link_to "Facebook", 'https://www.facebook.com/makersacademysweden', target: "_blank"
         %li
-          = link_to "Twitter", "http://twitter.com/makersacademy", target: "_blank"
+          = link_to "Twitter", 'https://twitter.com/MakersSweden', target: "_blank"
         %li
           = link_to "YouTube", "https://www.youtube.com/user/makersacademy", target: "_blank"
         %li
-          = link_to "Blog", "http://blog.makersacademy.com/", target: "_blank"
+          = link_to "Blog", "http://blog.makersacademy.se/", target: "_blank"
       %ul.column
         %li
           %h3 Reviews
@@ -27,26 +27,28 @@
         %li
           %address.vcard
             %span.email
-              = link_to "contact@makersacademy.com", "mailto:contact@makersacademy.com"
+              = link_to 'info@makersacademy.se', 'mailto:info@makersacademy.se'
             .adr
               %p
-                %span.org.fn Makers Academy
-                %span.street-address 50-52 Commercial St
+                %span.org.fn Makers Academy Sweden
+                %span.org.fn (Pragmatic Sweden AB)
+                %span.street-address Chalmers Innovation
+                %span.street-address Holtermansgatan 1D
                 %br
-                %span.locality London
-                %span.postal-code E1 6LT
+                %span.postal-code 411 29
+                %span.locality Göteborg
                 %br
-                %span.country-name United Kingdom
+                %span.country-name Sverige
                 %br
             .tel
-              = link_to "+44 (0)203 817 8870", "tel:02038178870"
+              = link_to "+46 (0)723 612527", "tel:0723 612527"
       %ul.column
         %li
           %h3 Legal
         %li
-          = link_to "Terms and Conditions", "/terms.html"
+          = link_to 'Allmänna villkor', "/terms.html"
         %li
-          = link_to "Privacy Policy", "/privacy.html"
+          = link_to 'Privacy Policy', "/privacy.html"
     .footer-logos
       .footer-logo
         / This mixpanel must stay as long as we want free Mixpanel
@@ -55,4 +57,4 @@
     .footer-copyright
       = image_tag "logo/ma-white.png", class: "logo"
       %p
-        = "&copy; Makers Academy #{Time.now.year}"
+        = "&copy; Makers Academy Sweden (Pragmatic Sweden AB) #{Time.now.year}"
