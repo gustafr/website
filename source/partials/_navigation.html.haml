@@ -21,16 +21,16 @@
     = link_to image_tag('logo/ma-wordmark-red.png'), '/', class: 'image--brand'
     %ul.navigation-menu
       %li{ class: current_if_current_page(current_page, '/graduates/') }
-        = link_to 'Studenter'.upcase, '/graduates.html'
+        = link_to 'Studenter'.mb_chars.upcase, '/graduates.html'
       %li{ class: current_if_current_page(current_page, '/employers/') }
-        = link_to 'Arbetsgivare'.upcase, '/employers.html'
+        = link_to 'Arbetsgivare'.mb_chars.upcase, '/employers.html'
       %li{ class: current_if_current_page(current_page, '/curriculum/') }
-        = link_to 'Läroplan'.upcase, '/curriculum.html'
+        = link_to 'Läroplan'.mb_chars.upcase, '/curriculum.html'
       %li{ class: current_if_current_page(current_page, '/about-us/') }
-        = link_to 'Om Makers'.upcase, '/about-us.html'
+        = link_to 'Om Makers'.mb_chars.upcase, '/about-us.html'
       - if current_page.url == '/employers/'
         %li{ class: current_if_current_page(current_page, '/apply/') }
-          = link_to 'Anställ'.upcase, config.hire_form_url, class: 'button button--vertical', target: '_blank'
+          = link_to 'Anställ'.mb_chars.upcase, config.hire_form_url, class: 'button button--vertical', target: '_blank'
       - else
         %li{ class: current_if_current_page(current_page, '/apply/') }
-          = link_to 'Ansök'.upcase, config.apply_form_url, class: 'button button--vertical'
+          = link_to 'Ansök'.mb_chars.upcase, config.apply_form_url, class: 'button button--vertical'
