@@ -3,7 +3,7 @@ activate :dotenv
 # It should match the minor version (e.g. 2.1) of the website
 set :website_version, 2.3
 
-Dir["lib/*.rb"].each { |file| require file }
+Dir['lib/*.rb'].each { |file| require file }
 
 ###
 # Compass
@@ -70,12 +70,14 @@ set :images_dir, 'images'
 
 sprockets.append_path File.join root, 'bower_components'
 
-set :apply_form_url, "https://apply.makersacademy.se"
+#set :apply_form_url, "https://apply.makersacademy.se"
+set :apply_form_url, 'https://makerssweden.typeform.com/to/UlIfGg'
+set :hire_form_url, 'https://makerssweden.typeform.com/to/SQcaqh'
 
 # Redirects from old site urls
-redirect "payments/new.html", to: "#{config.apply_form_url}/payments/new"
+redirect "payments/new.html", to: "#{config.apply_form_url}"
 redirect "apply.html", to: config.apply_form_url
-redirect "apply-for-ronin.html", to: "#{config.apply_form_url}/ronin/application"
+redirect "apply-for-ronin.html", to: "#{config.apply_form_url}"
 redirect "fellowship.html", to: "http://techcityfellowship.org/"
 redirect "life-at-makers.html", to: "about-us.html"
 redirect "talks.html", to: "employers.html"
