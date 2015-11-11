@@ -1,14 +1,14 @@
-- description "Hire London's top junior developers from Makers Academy."
-- title "Employers"
-%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
+- description 'Anställ juniora utvecklare från Makers Academy.'
+- title 'Arbetsgivare'
+%section.hero-splash{style: "background-image: url(#{image_path('backgrounds/students-in-lecture.jpg')});"}
   .container
     .centered-row
-      %h4.leader Hire London's
-      %h1 top junior developers
-      %p 30 new candidates every 6 weeks
+      %h4.leader Anställ
+      %h1 juniora utvecklare från Makers Academy
+      /%p 30 new candidates every 6 weeks
     .button-row
       %p
-        = link_to "Hire Developers", "https://makersacademy.typeform.com/to/sz8vTw", class: "button button--vertical", target: "_blank"
+        = link_to 'Anställ utvecklare', 'https://makerssweden.typeform.com/to/SQcaqh', class: 'button button--vertical', target: '_blank'
 
 %section
   .container
@@ -49,9 +49,9 @@
         Our curriculum is mainly Ruby and Javascript, but students often teach themselves all manner of other technologies.
   .container
     .button-row
-      =link_to "Discover our Curriculum", "/curriculum.html", class: "button button--horizontal"
+      =link_to 'Vår läroplan', "/curriculum.html", class: "button button--horizontal"
 
-= partial :"employer_testimonials"
+= partial :'employer_testimonials'
 
 %section.backgrounded
   .container
@@ -61,13 +61,13 @@
         %h4.subheader Average Salary
       .column
         %h2.statistic 28
-        %h4.subheader Average Age
+        %h4.subheader Medelålder
       .column
         %h2.statistic 35.18%
-        %h4.subheader Female Students
+        %h4.subheader Kvinnliga deltagare
       .column
         %h2.statistic 85%+
-        %h4.subheader Employed within 3 months
+        %h4.subheader I anställning efter 3 månader
 
 %section.half-slider
   .container
@@ -79,67 +79,68 @@
           %p They solve their own problems, are exceptionally fast and effective learners, and understand the business context beyond the code.
           %p The majority of our graduates have been successful in another industry, including law, marketing, banking, design, and many more: that's experience they'll bring to your company.
       .column
-        = partial :"preview_graduates"
+        = partial :'preview_graduates'
 
 %section.backgrounded
   .container
     .centered-row
-      %h2 Working with us
+      %h2 Att vara en Hiring Partner
     .centered-row
       %table
         %thead
           %tr
-            %th Activity
-            %th Time
-            %th Frequency
+            %th Aktivitet
+            %th Din tid
+            %th Frekvens
         %tbody
           %tr
-            %td Give a Lunchtime Talk
-            %td 1 hour
-            %td Per cohort
+            %td Hålla en Lunchtime Talk
+            %td 1 timma
+            %td 1 gng per grupp/cohort
           %tr
-            %td Host a Code Day
-            %td 1 day
-            %td Per cohort
+            %td Vara värd för en Kod Seminarium
+            %td 1 dag
+            %td 1 gng per grupp/cohort
           %tr
-            %td Attend a Graduation Showcase
-            %td 2 hours
-            %td Every 6 weeks
+            %td Delta i examensdemo
+            %td 2 timmar
+            %td Var 9:de vecka
           %tr
             %td Pitch at a Careers Fair
             %td 2 hours
             %td Every 6 weeks
           %tr
-            %td Meet our Jobhunters
-            %td 40 minutes
-            %td Every Wednesday
+            %td Möt våra deltagare
+            %td 45 - 60 minuter
+            %td Varannan onsdag
           %tr
-            %td Publish your Jobs
-            %td None
-            %td No limit
+            %td Publicera dina jobberbjudanden
+            %td Ingen
+            %td Utan begränsning
 
 %section
   .container
     .two-width-row
       .column.vertical-center
-        %h4.leader Success Fee
+        %h4.leader Arvode
         %h2.statistic 20%
-        %h4.subheader of starting salary
+        %h4.subheader av den första årslönen
         .button-row
-          =link_to "Request a callback", "http://bit.ly/meetWB", class: "button button--horizontal"
+          =link_to 'Kontakta mig', 'http://doodle.com/makers_thomas', class: 'button button--horizontal'
       .column
         .copy.copy--left
-          %h4.alt-color you get all of the above, unlimited, for free
-          %h4.subheader You only pay when you find someone you like
-          %p Unlike other coding bootcamps, we charge a fee for recruitment - which means we're incentivised at every point of our process to produce phenomenally employable people.
-          %p You don't pay a penny for engaging with our graduates, whether you're attending our careers fair, or simply posting a job - you only pay when you find someone you like.
-          %p Our fee is also greater than some other sources of recruitment, because working with Makers Academy is much more than simply getting a list of keyword-matched CVs. We know our candidates inside-out, we're technologists and educators, not salespeople - and we care about creating the next generation of exceptional software developers.
+          %h4.alt-color du får tillgång till ovanstående utan några finansiella förbindelser
+          %h4.subheader Vi debiterar dig vårt arvode förs när du hittar någon som passar och skriver ett ansällningsavtal
+          %p Till skillnad från andra utbildningsanordnare tar vi ut ett arvode när du rekryterar någon av våra deltagare. Vi gör det först när du faktiskt hittar någon som du tror kan passa i ditt team och skapa mervärden för din organisation.
+          %p Det innebär i praktiken att vi är väldigt måna om att våra deltagare kan så mycket som möjligt och att vi jobbar riktigt hårt på att få upp deras kompetensnivå till en nivå som gör dem anställningsbara.
+          %p Vårt arvoda är också något större än vad vissa rekryteringsfirmor tar ut. det beror på att samarbetet med oss handlar om så mycket mer ärn att du bara får en lista med kandidater. Vi känner vår deltagare väl och förutom att känna till deras tekniska profil, vet vi hur de fungerar i att jobba i grupp, hur de hanterar stress och hur de jobbar med att lösa problem. Vi finns här för dem och vi finns här för dig.
+          %p Att du får kontakt men en person som kan platsa i ditt team - och som kan komma in i produktion så fort som möjligt, är ett av våra högsta prioriteter.
 
 
 %section.backgrounded
   .container
     .centered-row
-      %h2 Our Hiring Partners
+      %h2 Våra Hiring Partners
       %table
         %tbody
           %tr
@@ -161,4 +162,4 @@
       - fetch_logos.shuffle.each do | logo |
         = image_tag logo, { alt: alt_text_from_filename(logo), title: alt_text_from_filename(logo) }
 
-= partial :"apply", locals: { page: :employers }
+= partial :'apply', locals: { page: :employers }
