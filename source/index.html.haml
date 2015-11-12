@@ -6,38 +6,6 @@
       %p Makers Academy är en 12 veckors intensiv och praktiskt inriktad camp för juniora utvecklare, Den dig grunderna du behöver för att kunna skapa, utveckla och sjösätta webbaserade applikationer.
     = partial :'email-capture'
 
-%section.half-slider
-  .container
-    .half-slider-row
-      .column
-        .copy.copy--left
-          %h4.leader Möt
-          %h2 tidigare deltagare
-          %p Våra studenter kommer från alla samhällsklasser och åldersgrupper. Vi är noga med att välja ut de högst motiverade personer som söker till vår utbildning. Din bakgrund har mycket mindre betydelse än din vilja och motivation att ta ett stort steg i ditt liv.
-          .button-row.shift-to-bottom
-            %p
-              = link_to 'Read Grad Stories', '/graduates.html', class: 'button button--horizontal'
-      .column
-        = partial :'preview_graduates'
-
-%section.hero{style: "background-image: url(#{image_path('backgrounds/students-in-lecture.jpg')});"}
-  .container
-    .centered-row
-      %h4.leader Möt våra
-      %h2 hiring partners
-      %p Vi har utbildat över #{stats.number_of_graduates} nybörjare och gjort det möjligt för dem att ta steget in i IT-branschen. Vissa av dem var sugna på en ny karriärr, abdra ville förverkliga sina idéer och bygga egna projekt och starta egna företag..
-    .three-width-row
-      .column
-        .image--centered
-          = image_tag 'hiring-partners/Atos.png'
-        .image--centered
-          = image_tag 'hiring-partners/compare-the-market.png'
-      .column
-        = link_to 'Läs mer om våra partners', '/employers.html', class: 'button button--horizontal'
-      .column
-        = image_tag 'hiring-partners/Deloitte-Digital.png'
-        = image_tag 'hiring-partners/just-giving.png'
-
 %section.half-slider.half-slider--reverse.with-padding
   .container
     .half-slider-row
@@ -83,6 +51,39 @@
 %hr
 
 = partial :'benefits_table'
+
+
+%section.hero{style: "background-image: url(#{image_path('backgrounds/students-in-lecture.jpg')});"}
+  .container
+    .centered-row
+      %h4.leader Möt våra
+      %h2 hiring partners
+      %p Vi har utbildat över #{stats.number_of_graduates} nybörjare och gjort det möjligt för dem att ta steget in i IT-branschen. Vissa av dem var sugna på en ny karriärr, abdra ville förverkliga sina idéer och bygga egna projekt och starta egna företag..
+    .three-width-row
+      .column
+        .image--centered
+          = image_tag 'hiring-partners/Atos.png'
+        .image--centered
+          = image_tag 'hiring-partners/compare-the-market.png'
+      .column
+        = link_to 'Läs mer om våra partners', '/employers.html', class: 'button button--horizontal'
+      .column
+        = image_tag 'hiring-partners/Deloitte-Digital.png'
+        = image_tag 'hiring-partners/just-giving.png'
+
+%section.half-slider
+  .container
+    .half-slider-row
+      .column
+        .copy.copy--left
+          %h4.leader Möt
+          %h2 tidigare deltagare
+          %p Våra studenter kommer från alla samhällsklasser och åldersgrupper. Vi är noga med att välja ut de högst motiverade personer som söker till vår utbildning. Din bakgrund har mycket mindre betydelse än din vilja och motivation att ta ett stort steg i ditt liv.
+          .button-row.shift-to-bottom
+            %p
+              = link_to 'Read Grad Stories', '/graduates.html', class: 'button button--horizontal'
+      .column
+        = partial :'preview_graduates'
 
 = partial :'apply'
 
