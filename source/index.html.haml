@@ -52,6 +52,21 @@
 
 = partial :'benefits_table'
 
+= partial :'apply'
+
+%section.half-slider
+  .container
+    .half-slider-row
+      .column
+        .copy.copy--left
+          %h4.leader Möt
+          %h2 tidigare deltagare
+          %p Våra studenter kommer från alla samhällsklasser och åldersgrupper. Vi är noga med att välja ut de högst motiverade personer som söker till vår utbildning. Din bakgrund har mycket mindre betydelse än din vilja och motivation att ta ett stort steg i ditt liv.
+          .button-row.shift-to-bottom
+            %p
+              = link_to 'Read Grad Stories', '/graduates.html', class: 'button button--horizontal'
+      .column
+        = partial :'preview_graduates'
 
 %section.hero{style: "background-image: url(#{image_path('backgrounds/students-in-lecture.jpg')});"}
   .container
@@ -71,19 +86,5 @@
         = image_tag 'hiring-partners/Deloitte-Digital.png'
         = image_tag 'hiring-partners/just-giving.png'
 
-%section.half-slider
-  .container
-    .half-slider-row
-      .column
-        .copy.copy--left
-          %h4.leader Möt
-          %h2 tidigare deltagare
-          %p Våra studenter kommer från alla samhällsklasser och åldersgrupper. Vi är noga med att välja ut de högst motiverade personer som söker till vår utbildning. Din bakgrund har mycket mindre betydelse än din vilja och motivation att ta ett stort steg i ditt liv.
-          .button-row.shift-to-bottom
-            %p
-              = link_to 'Read Grad Stories', '/graduates.html', class: 'button button--horizontal'
-      .column
-        = partial :'preview_graduates'
 
-= partial :'apply'
 
