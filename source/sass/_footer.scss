@@ -26,7 +26,7 @@ footer {
     @include ma-container;
     @include media($desktop) {
       padding: $base-spacing modular-scale(4) 0 modular-scale(4);
-      background-color: $red;
+      background-color: $brand-primary-color;
       text-align: left;
     }
   }
