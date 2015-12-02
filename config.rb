@@ -79,7 +79,7 @@ redirect 'payments/new.html', to: "#{config.apply_form_url}"
 redirect 'apply.html', to: config.apply_form_url
 redirect 'apply-for-ronin.html', to: "#{config.apply_form_url}"
 redirect 'blog.html', to: 'http://blog.makersacademy.se'
-redirect 'not_in_use'. to '/'
+redirect 'not_in_use', to: '/'
 
 activate :deploy do |deploy|
   deploy.method          = :rsync
