@@ -1,32 +1,32 @@
 - title: Precourse
-  summary: Everything you need to get ready for the main course
+  summary: Allt du behöver inför kursstarten
   image: precourse.png
-  blurb: "In the four weeks preceding the full-time course, all students take a (very important!) part-time PreCourse, which ensures that all of our students get to the required basic level of competence when they enroll at Makers Academy. We focus on the foundations: first, the command-line, which is key to navigating around your computer, creating files and directories and give you the ability to search your entire system; second, you'll tackle version control using Git, which is great for saving your work and makes it super easy to collaborate with other coders, and finally you'll learn some basic Ruby, which will be your first programming language. The PreCourse requires a minimum of 15 hours per week to complete successfully, but the more time you can spend on the PreCourse, the better. Access to a computer with an internet connection is a necessity. Students will be allocated a mentor from their preceding cohort, to help direct their learning and assist with any technical problems. Each Friday during the PreCourse, we send out a challenge to help solidify and focus students' learning and check in on their progress."
+  blurb: "Du måste få en solid kunskapsbas att stå på inför själva kursen. Därför inleder vi campet med en förberedande del på 4 veckor. Under den förberadande kursen arbetar du på distans i ett nära samarbete med din coach och i team med andra deltagare. Du deltar i en till två fjärrmöten dagligen och förväntas kunna ägna mellan 15 till 20 timmar per vecka med att gå igenom material, lösa uppgifter och delta i parprogrammering."
 
 - title: Vecka 1
   image: tdd.png
-  summary: Test-Driven Development and Object-Oriented Programming
-  blurb: "The main topics of week 1 are test-driven development and object-oriented programming. By now, students have some experience writing pure Ruby code and are familiar with the functionality of core Ruby classes. This week we start creating our own classes in a test-driven way. The aim of this week is to understand how to structure code using objects. The Friday challenge involves writing a simple object-oriented system of interacting classes."
+  summary: Testdriven utveckling och objektorienterad programmering
+  blurb: "Vi inleder kursen med att gå igenom principerna med Testdriven utveckling och grunderna i objektorienterad programmering. Vi bygger ett enkelt terminalbaserat program för Bankomatuttag (ATM challenge) och lägger grunden för förståelsen hur classer kan interagera med varandra. Vi går igenom fördelarna och utmaningarna med  parprogrammering och använder oss av grundläggande tekniker för versionskontroll. Den individuella helgutmaningen går ut på att skriva ett enkelt program som simulerar ett bibliotekssystem. Det här är dina första steg som programmerare"
 
 - title: Vecka 2
   image: tdd.png
-  summary: Further TDD and OOP
-  blurb: "This week we build a game using test-driven development and object-oriented programming to make sure students understand these important concepts well. We also cover more advanced Ruby and programming topics: lambdas vs procs, composition vs inheritance, iterators and recursion. The Friday challenge involves reimplementing some of the more advanced methods from the Ruby core library."
+  summary: Fördjupad TDD och OO i praktiken
+  blurb: "Vi inleder vecka 2 med att lägga grunden för ett online system som låter användarna beställa mat online (Pizza challenge). Vi går även igenom mer avancerad Ruby tekniker så som: lambdas, procs, composition, inheritance, iterators, recursion. Helgutmaningen handlar om att implementera dessa tekniker men även att använda en extern sms-tjänst genom api anrop."
 
 - title: Vecka 3
   image: http.png
-  summary: Introduction to Web Development
-  blurb: "By now, students are comfortable using Ruby and writing object-oriented code in a test-driven way. In week 3 we focus on the fundamentals of the web: HTTP protocols, the Sinatra framework, HTML & CSS. We also learn how to deploy our code to Heroku and use the development tools in Chrome. The Friday challenge involves building a Sinatra application and deploying it to Heroku."
+  summary: Introduktion till html och JavaScript
+  blurb: "Vi forstätter med att introducera ytterligare ett programmeringsspråk med tillhörande testverktyg - JavaScript. Samtidigt går vi igenom grunderna i html och css och bygger en applikation som räknar ut din Body Mass Index (BMI challenge). Vi introducerar även ett ramverk för webbaserade applikationer (Sinatra) och publicerar vår första app på internet."
 
 - title: Vecka 4
   image: db.png
-  summary: Databases and User Management
-  blurb: "It's time to learn how to add a relational database to a Sinatra application using DataMapper. In this week we talk about relational databases, key-value stores and SQL. We also spend a lot of time discussing proper management of user accounts: hashing and salting, choosing appropriate hashing algorithms and mitigating common security risks. Students write a user management system (sign up, sign in, sign out, etc) from scratch, paying special attention to the security aspects. Finally, students also learn how to use Capybara to test-drive web applications. The Friday challenge focuses on relational databases. This is a an important milestone as students now have a full picture of web development."
+  summary: Databaser och hantering av användare
+  blurb: "Vi går tillbaka till vår Pizza applikation och använder den utmaningen till att introducera relationsdatabaser och grundläggande kryptering som en del av veckoutmaningen (funktioner för användarregistrering, autentisering och auktorisering). Vi bygger och publicerar vårt system med hjälp av Heroku och introducerar tekniker som Continuous Integration och Continuous Deployment."
 
 - title: Vecka 5
   image: js.png
-  summary: Front-End Technologies
-  blurb: "Now that students can build test-driven, secure, database-backed web applications, it's time to start talking about other front-end technologies: JavaScript, jQuery, AJAX and responsive design. Students begin learning their second language: JavaScript, also known as the language of the web. The Friday challenge asks students to reimplement the front-end of one of the most popular websites in the world."
+  summary: Front-end utveckling
+  blurb: "Vi introducerar mer avancerade JavaScript ramverk (jQuery) och går igenom hur vi kan förbättra användarupplevelsen. Vi for"
 
 - title: Vecka 6
   image: lab.png
