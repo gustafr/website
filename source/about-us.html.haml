@@ -4,14 +4,17 @@
 %section.hero-splash{style: "background-image: url(#{image_path('backgrounds/splash_3.jpg')});"}
   .container
     .centered-row
-      %h1 Om Craft
-      %p Craft Academy är en 12 veckors intensiv och praktiskt inriktad camp för juniora utvecklare.
-%section.article--centered
-  %article
-    %h3 Att studera med Craft Academy
-    %p Being a student at Craft Academy is a very emotional journey. Eating, sleeping and breathing code becomes a huge part of your life, but looking after your wellbeing is also critical to becoming a great developer. On site we have Dana, our Chief Joy Officer - a certified yoga instructor who runs daily yoga and meditation classes and is here to look after your well being.
-    %p It’s also important to unwind and bond socially with your cohort. We're surrounded by some of London's quirkiest cafes, yummiest street food and busiest pubs. We also host regular events such as Petcha Kutcha lightning talks, games nights, karaoke nights, as well as organising group activities like climbing, go-karting and going to the theatre.
-
+      %h1 Craft Academy
+      %p Craft Academy är en 12 veckors intensiv och praktiskt inriktad camp för juniora utvecklare. Vi erbjuder en ny väg in till ett spännande yrke och är ett komplement till universitetsstudier och online tutorials.
+%section
+  .container
+    %article
+      %h3 Studera med Craft Academy
+      %h4.copy--left Vi är en katalysator för förändring, en plats där människor förvandlar sina liv.
+      %p.copy--left Det vi gör på Craft Academy är inte bara att undervisa i Agila utvecklingsmetoder, Ruby, JavaScript, mm. Vi hjälper inte bara våra studenter att bli utvecklare, även om det är det synliga resultatet av vårt arbete. Vi hjälper dem att förändra sina liv till det bättre, att lära sig att lära, att förstå hur de fungerar och tänker.
+      %p.copy--left Att vara student på Craft Academy är en riktig utmaning. Du kommer att äta, sova och andas kod. Problemlösning, grupparbete och ständiga utmaningar blir en stor del av ditt liv.
+      %p.copy--left Vi ger dig alla verktyg du behöver för att bli en bra programmerare - tillgång till en beprövat läroplan, erfarna coacher på plats och på distans, möjlighet att samverka med deltagare i andra delar av Norden men även en egen MacBook Pro så att du får en bra utvecklarmiljö att jobba i.
+      %p.copy--left Du tillbringar dina dagar på plats i våra lokaler vid Chalmers Innovation eller på någon av våra Remote Classroom och tar en aktiv roll i gemensamma föreläsningspass, projektarbeten och möten. Förutom svenska är engelska vårt arbetsspråk. Den mängd av engagemang du tillför till programmet återspeglar sig i dina resultat.
 %section.hero{style: "background-image: url(#{image_path('backgrounds/splash_2.jpg')});"}
   .container
     .centered-row
@@ -20,14 +23,12 @@
       .button-row
         =link_to 'Meet the Team', '/team.html', class: 'button button--horizontal'
         =link_to 'Join Us', '/join-the-team.html', class: 'button button--horizontal'
-%section.article--centered
-  %article
-    %h3 Vår historia
-    %p
-      %span Craft Academy startades av Thomas Ochman i syfte att vara en del av lösningen på bristen på kompetens inom ICT-braschen.
-    %hr
-=# partial :'faqs'
-%hr
+%section
+  .container
+    %article
+      %h3 Vår mission
+      %h4.copy--left Det är brist på utvecklare i Sverige och det finns ett stort behov av nya rekryter. Craft Academy siktar in sig på att vara en del av lösningen på det problemet.
+      %p.copy--left Craft Academy startades av Thomas Ochman i samarbete med Makers Academy i London och levererade sin första bootcamp under hösten 2015. Vi har sedan starten haft en nära koppling till start-up scenen i Göteborg och har våra lokaler vid Chalemrs Innovation i en entreprenöriell miljö med många techföretag som grannar.
+      %p.copy--left Inför vår expansion till andra nordiska städer siktar vi på att knyta nära band med andra inkubatorer och start-up acceleratorer för att kunna vara en naturlig kompetenspartner men även för att hjälpa våra studenter att knyta värdefulla kontakter och bygga nätverk.
 
-= partial :'benefits_table'
 = partial :'apply', locals: {about_us: true}
