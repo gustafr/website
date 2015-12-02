@@ -14,7 +14,7 @@
       %li{ class: current_if_current_page(current_page, '/curriculum/') }
         = link_to 'Läroplan', '/curriculum.html'
       %li{ class: current_if_current_page(current_page, '/about-us/') }
-        = link_to 'Om Makers', '/about-us.html'
+        = link_to 'Om Craft', '/about-us.html'
 
 %header{class: 'navigation auto-hide', role: 'banner'}
   %nav{role: 'navigation'}
@@ -27,7 +27,7 @@
       %li{ class: current_if_current_page(current_page, '/curriculum/') }
         = link_to 'Läroplan'.mb_chars.upcase, '/curriculum.html'
       %li{ class: current_if_current_page(current_page, '/about-us/') }
-        = link_to 'Om Makers'.mb_chars.upcase, '/about-us.html'
+        = link_to 'Om Craft'.mb_chars.upcase, '/about-us.html'
       - if current_page.url == '/employers/'
         %li{ class: current_if_current_page(current_page, '/apply/') }
           = link_to 'Anställ'.mb_chars.upcase, config.hire_form_url, class: 'button button--vertical', target: '_blank'
