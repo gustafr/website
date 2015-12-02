@@ -14,7 +14,9 @@
 %section
   .container
     %h3 Våra utbildningslokaler
-    %p.copy--left Du kan delta i Craft Academy på distans och jobba hemifrån men vi tror att de bästa effekterna uppnås om vi jobba nära varandra. Just nu finns vi på två fysiska platser och kommer att öppna upp i ytterligare två städer under våren 2016.
+    %p.copy--left
+      Du kan delta i Craft Academy på distans och jobba hemifrån men vi tror att de bästa effekterna uppnås om deltagarna jobbar nära varandra och coacherna.
+      Just nu finns vi på två fysiska platser och kommer att öppna upp i ytterligare två städer under våren 2016.
     %ul.tabs
       %li.tab-header-and-content
         %a.tab-link.is-active{href: '#'} Göteborg
@@ -24,14 +26,13 @@
               .column
                 = image_tag 'maps/gothenburg.png', width: '400px'
               .column
+                %h3 Göteborg
                 %p I Göteborg hittar du oss vid Chalmers Innovation Stena Center på Holtermansgatan 1 (mittemot stora Chalmers ingången).
       %li.tab-header-and-content
         %a.tab-link{href: '#'} Uppsala
         .tab-content
+          %h3 Uppsala
           %p Just nu förbereder vi vår etablering i Uppsala och återkommer med information under december 2015.
 
-
-
-=# partial :'benefits_table'
 
 = partial :'apply', locals: { page: :employers }
