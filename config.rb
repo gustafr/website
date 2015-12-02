@@ -74,12 +74,17 @@ sprockets.append_path File.join root, 'bower_components'
 set :apply_form_url, 'https://makerssweden.typeform.com/to/UlIfGg'
 set :hire_form_url, 'https://makerssweden.typeform.com/to/SQcaqh'
 
+# Ignore folders with unused teplates
+ignore 'elements/*'
+ignore 'not_in_use/*'
+ignore 'case-studies/*' #as long as we don't present students
+
 # Redirects from old site urls
 redirect 'payments/new.html', to: "#{config.apply_form_url}"
 redirect 'apply.html', to: config.apply_form_url
 redirect 'apply-for-ronin.html', to: "#{config.apply_form_url}"
 redirect 'blog.html', to: 'http://blog.makersacademy.se'
-redirect 'not_in_use/', to: '/'
+
 
 activate :deploy do |deploy|
   deploy.method          = :rsync
