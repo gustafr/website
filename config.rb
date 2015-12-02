@@ -78,22 +78,7 @@ set :hire_form_url, 'https://makerssweden.typeform.com/to/SQcaqh'
 redirect 'payments/new.html', to: "#{config.apply_form_url}"
 redirect 'apply.html', to: config.apply_form_url
 redirect 'apply-for-ronin.html', to: "#{config.apply_form_url}"
-redirect 'fellowship.html', to: 'http://techcityfellowship.org/'
-redirect 'life-at-makers.html', to: 'about-us.html'
-redirect 'talks.html', to: 'employers.html'
-redirect 'talks/apply.html', to: 'employers.html'
-redirect 'students.html', to: 'graduates.html'
-redirect 'student-blogs.html', to: 'graduates.html'
-redirect 'student-projects.html', to: 'graduates.html'
-redirect 'graduate-stories.html', to: 'graduates.html'
-redirect 'testimonials.html', to: 'graduates.html'
-redirect 'alumni.html', to: 'graduates.html'
-redirect 'network.html', to: 'employers.html'
-redirect 'payment-plans.html', to: 'payment.html'
-redirect 'jobs.html', to: 'join-the-team.html'
-redirect 'blog.html', to: 'http://blog.makersacademy.com'
-redirect 'payments.html', to: 'payment.html'
-redirect 'partners.html', to: 'employers.html'
+redirect 'blog.html', to: 'http://blog.makersacademy.se'
 
 activate :deploy do |deploy|
   deploy.method          = :rsync
