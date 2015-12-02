@@ -70,11 +70,10 @@ set :images_dir, 'images'
 
 sprockets.append_path File.join root, 'bower_components'
 
-# set :apply_form_url, "https://apply.makersacademy.se"
 set :apply_form_url, 'https://makerssweden.typeform.com/to/UlIfGg'
 set :hire_form_url, 'https://makerssweden.typeform.com/to/SQcaqh'
 
-# Ignore folders with unused teplates
+# Ignore folders with unused templates
 ignore 'elements/*'
 ignore 'not_in_use/*'
 ignore 'case-studies/*' #as long as we don't present students
