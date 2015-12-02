@@ -7,27 +7,23 @@
     %ul.navigation-menu
       %li{ class: current_if_current_page(current_page, '/') }
         = link_to 'Hem', '/'
-      %li{ class: current_if_current_page(current_page, '/graduates/') }
-        = link_to 'Studenter', '/graduates.html'
+      %li{ class: current_if_current_page(current_page, '/about-us/') }
+        = link_to 'Studenter', '/about-us.html'
       %li{ class: current_if_current_page(current_page, '/employers/') }
         = link_to 'Arbetsgivare', '/employers.html'
       %li{ class: current_if_current_page(current_page, '/curriculum/') }
         = link_to 'Läroplan', '/curriculum.html'
-      %li{ class: current_if_current_page(current_page, '/about-us/') }
-        = link_to 'Om Craft', '/about-us.html'
 
 %header{class: 'navigation auto-hide', role: 'banner'}
   %nav{role: 'navigation'}
     = link_to image_tag('logo/logo-with-tagline.png'), '/', class: 'image--brand'
     %ul.navigation-menu
-      %li{ class: current_if_current_page(current_page, '/graduates/') }
-        = link_to 'Studenter'.mb_chars.upcase, '/graduates.html'
+      %li{ class: current_if_current_page(current_page, '/about-us/') }
+        = link_to 'Studenter'.mb_chars.upcase, '/about-us.html'
       %li{ class: current_if_current_page(current_page, '/employers/') }
         = link_to 'Arbetsgivare'.mb_chars.upcase, '/employers.html'
       %li{ class: current_if_current_page(current_page, '/curriculum/') }
         = link_to 'Läroplan'.mb_chars.upcase, '/curriculum.html'
-      %li{ class: current_if_current_page(current_page, '/about-us/') }
-        = link_to 'Om Craft'.mb_chars.upcase, '/about-us.html'
       - if current_page.url == '/employers/'
         %li{ class: current_if_current_page(current_page, '/apply/') }
           = link_to 'Anställ'.mb_chars.upcase, config.hire_form_url, class: 'button button--vertical', target: '_blank'
