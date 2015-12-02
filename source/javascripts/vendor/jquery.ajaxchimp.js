@@ -105,7 +105,7 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
                     label.html(msg);
 
                     label.show(2000);
-                    // Added by Makers Engineering
+                    // Added by Craft Engineering
                     if (settings.callback) {
                         settings.callback(resp, email.val());
                     }
