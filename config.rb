@@ -106,7 +106,6 @@ end
 
 configure :development do
   activate :livereload
-  set :mixpanel_token, 'f3e503bb7803dd7089f5b4124baa03a4'
 
   # custom setting for switching off analytics in development
   set :run_analytics, false
@@ -138,8 +137,6 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 
   set :run_analytics, true
-
-  set :mixpanel_token, 'b839b30fbe0796d650ae20e7eae6d0d1'
 
   set :show_baseline_grid, false
 

@@ -12,7 +12,6 @@
 // bower_components/makers_styles/source/javascripts/vendor/retina.min.js
 // bower_components/makers_styles/source/javascripts/vendor/jquery.ajaxchimp.js
 // bower_components/makers_styles/source/javascripts/vendor/baseliner.js
-// bower_components/makers_styles/source/javascripts/mixpanel-email-capture.js
 // bower_components/makers_styles/source/javascripts/navigation.js
 // bower_components/makers_styles/source/javascripts/jquery.fixedscroll.js
 // bower_components/makers_styles/source/javascripts/doorbell.js
@@ -23,7 +22,6 @@
 //= require vendor/slick.js
 //= require vendor/jquery.ajaxchimp
 //= require vendor/prism
-//= require mixpanel-email-capture
 //= require navigation
 //= require jquery.fixedscroll
 //= require doorbell
@@ -55,9 +53,6 @@ $(document).ready(function() {
   // set up sliders using Slick
   // set up email capture using AJAXChimp
   // set up instant feedback form using doorbell.io
-  $('.email-capture').ajaxChimp({
-    callback: mixpanelEmailCapture
-  });
 
   $('.definition-links').fixedScroll();
 
