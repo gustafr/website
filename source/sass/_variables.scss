@@ -1,8 +1,11 @@
 // Typography
 $futura: "futura-pt", Futura, $helvetica;
-$base-font-family: $futura;
-$heading-font-family: $base-font-family;
-$base-font-size: 18px;
+$gotham-ligh: "gotham-light", $helvetica;
+$gotham-medium: "gotham-medium", $helvetica;
+
+$base-font-family: $gotham-ligh;
+$heading-font-family: $gotham-medium;
+$base-font-size: 16px;
 
 // Vertical rhythm set-up
 $em-base: $base-font-size;
