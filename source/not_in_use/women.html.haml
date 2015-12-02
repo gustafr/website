@@ -11,7 +11,7 @@
   .article--centered
     %article
       %h3 This could be you
-      %p Our graduates include amazing women from all walks of life: everything from mums and students to project managers. They believed they could escape their unfulfilling careers, and now they get to apply their creative skills to work that they enjoy. They have a better work-life balance and work with amazing organisations: big business, and the third sector. You can change the world through code. 
+      %p Our graduates include amazing women from all walks of life: everything from mums and students to project managers. They believed they could escape their unfulfilling careers, and now they get to apply their creative skills to work that they enjoy. They have a better work-life balance and work with amazing organisations: big business, and the third sector. You can change the world through code.
 
 = partial :"full_graduates", locals: { category: "female" }
 
@@ -80,8 +80,3 @@
 = partial :"benefits_table"
 
 = partial :"apply"
-
-/ Mixpanel event for landing page
-:javascript
-  mixpanel.track('Viewed Landing Page', {'Landing Page': 'Women'});
-  mixpanel.people.set({'Category': 'Women'});

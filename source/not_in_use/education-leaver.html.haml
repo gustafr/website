@@ -90,8 +90,3 @@
 = partial :"benefits_table"
 
 = partial :"apply"
-
-/ Mixpanel event for landing page
-:javascript
-  mixpanel.track('Viewed Landing Page', {'Landing Page': 'Education Leavers'});
-  mixpanel.people.set({'Category': 'Education Leaver'});
