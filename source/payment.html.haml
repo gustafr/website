@@ -2,23 +2,28 @@
 %section.hero-splash{style: "background-image: url(#{image_path('backgrounds/splash_4.jpg')});"}
   .container
     .centered-row
-      %h1 Payment Options
-      %p We offer a variety of payment options, and discounts for representatives of minority groups. Price should never be a barrier to a student joining Craft Academy.
+      %h1 Kursavgift
+      %p
+        Vi erbjuder olika typer av finansieringsalternativ och betallösningar.
+        Samtidigt som vi är ett vinstdrivande företag, vill vi inte att priset ska utgöra ett hinder för någon att vara med på Craft Academy Bootcamp..
 %section.backgrounded
   .container
     .centered-row
       %h4.leader Craft Academy
       %h2 Kursavgift
-      %h2.statistic 84 000 SEK
+      %p.copy--left
+        Grundpriset för Craft Academy Bootcamp är 84 000 SEK. Makers Academy är en renodlad uppdragsutbildning och vi inte affilierade med någon statlig eller kommunal organisation eller myndighet.
+        Kursavgiften är satt att täcka våra kostnader för lokaler, instuktörer, externa föreläsare, utrustning, mm.
+        Våra kurser berättigar INTE till CSN stöd. Se nedan för möjligheter till rabatter och tillgängliga finansieringsalternativ.
     .three-width-row
       .column
-        %h3 Anmälningsavgift: 8 400 SEK
-        %p I samband med att du blir erbjuden och accepterat plats på kursen (efter intervjun) behöver erlägga en anmälningsavgift som motsvarar 10% av kurspriset.
+        %h4 Registreringsavgift
+        %p I samband med att du blir erbjuden och accepterat plats på kursen (efter intervjun) behöver erlägga en anmälningsavgift på 8 400 SEK som motsvarar 10% av kurspriset.
       .column
-        %h3 Boka tidigt-rabatt: 10%
+        %h4 Boka tidigt-rabatt: 10%
         %p Vi erbjuder dig 10% rabatt om du bokar tidigt och betalar hela kursavgiften minst en månad före starten av kursen.
       .column
-        %h3 Stipendium för kvinnliga sökande: 7 500 SEK
+        %h4 Stipendium för kvinnliga sökande
         %p Vi erbjuder en 7 500 kr rabatt för kvinnor eftersom de är mycket underrepresenterade i IT-branschen.
 %section
   .container
@@ -27,39 +32,44 @@
       %p Du kan ansöka om att få lägga upp en avbetalningsplan för kursavgiften.
     .two-width-row
       .column
-        = image_tag 'logo/human_finans.jpg', class: 'image--medium'
+        = image_tag 'logo/progmatic_sweden.png', class: 'image--medium'
         %h4 Pragmatic Sweden AB
         .button-row
           %p
             Pragmatic Sweden AB är företaget som driver Craft Academy. Vi erbjuder en egen avbetalningsplan som ger dig möjlighet av avbetala kursavgiften på 6 räntefria månadsbetalningar. Kontakta oss för mer information och om andra tillgängliga finansieringsalternativ.
           %p
-            Första delbetalningen erläggs vid anmälan och avser en registreringsavgift på 8 400 SEK (motsvarande 10% av kursavgiften), delbetalning på 12 600 SEK samt en administrativ avgift på 495 SEK, totalt 21 495 SEK. De nästföljande 5 månadsbetalningarna avser delbetalning på 12 600 SEK och administrativ avgift på 495 SEK, totalt 13 095 SEK. Det totala priset för kursen (exkl den förberedande delen) blir 86 970 SEK. Alla priser inkluderar moms.
-
+            Första delbetalningen erläggs vid anmälan och avser en registreringsavgift på 8 400 SEK (motsvarande 10% av kursavgiften), delbetalning på 12 600 SEK samt en administrativ avgift på 495 SEK, totalt 21 495 SEK.
+            De nästföljande 5 månadsbetalningarna avser delbetalning på 12 600 SEK och administrativ avgift på 495 SEK, totalt 13 095 SEK.
+            %strong Det totala priset för kursen (exkl den förberedande delen) blir 86 970 SEK.
+            Alla priser inkluderar moms.
 
       .column
         = image_tag 'logo/human_finans.jpg', class: 'image--medium'
         %h4 Human Finans
         %p
-          I samarbete med Human Finans kommer vi kunna erbjuda olika alternativ till delbetalning av våra utbildningar. Du kan t.ex. låna räntefritt till din utbildning och dela upp din betalning i 12 månader.
+          I samarbete med Human Finans kommer vi from februari 2016 kunna erbjuda olika alternativ till delbetalning av våra utbildningar. Du kan t.ex. låna räntefritt till din utbildning och dela upp din betalning i 12 månader.
 %hr
 
-%hr
 %section
   .container
     .centered-row
-      %h2 Payment Options
+      %h2 Betalningsalternativ
       %p We accept the following modes of payment:
     .four-width-row
       .column
-        = image_tag "icons/icon-cash.jpg", class: "image--medium"
-        %h4 Bank Transfer
+        = image_tag 'icons/icon-cash.jpg', class: 'image--small'
+        %h4 Banköverföring
+        %p.copy--left
+          Det enklaste sättet att betala in dina avgifter är genom en banköverföring. Kontakta oss för kontonummer. Märk alla betalningar med ditt namn och de 6 första siffrorna i ditt personnummer.
       .column
-        = image_tag "icons/icon-credit-card.jpg", class: "image--medium"
-        %h4 Credit Card
+        = image_tag 'icons/icon-credit-card.jpg', class: 'image--small'
+        %h4 Kort
+        %p.copy--left
+          Vi kan ta emot de flesta kreditkort genom vår tjänsteleverantör Stripe.
+          %strong Obs! Tillgängligt efter 2016-01-02
       .column
-        = image_tag "payment-options/transferwise.jpg", class: "image--medium"
-        %h4 TransferWise
-      .column
-        = image_tag "payment-options/gocardless.jpg", class: "image--medium"
-        %h4 GoCardless
+        = image_tag 'icons/icon-briefcase.png', class: 'image--small'
+        %h4 Faktura
+        %p Är du företagare ställer vi gärna ut en momsfaktura på kursavgiften och du kan få 30 dagars kredit. Kontakts oss för mer information.
+
 = partial :'apply', locals: {page: :payment}
