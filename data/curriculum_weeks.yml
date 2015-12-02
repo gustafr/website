@@ -1,59 +1,44 @@
 - title: Precourse
   summary: Allt du behöver inför kursstarten
-  image: precourse.png
   blurb: "Du måste få en solid kunskapsbas att stå på inför själva kursen. Därför inleder vi campet med en förberedande del på 4 veckor. Under den förberadande kursen arbetar du på distans i ett nära samarbete med din coach och i team med andra deltagare. Du deltar i en till två fjärrmöten dagligen och förväntas kunna ägna mellan 15 till 20 timmar per vecka med att gå igenom material, lösa uppgifter och delta i parprogrammering."
 
 - title: Vecka 1
-  image: tdd.png
   summary: Testdriven utveckling och objektorienterad programmering
   blurb: "Vi inleder kursen med att gå igenom principerna med Testdriven utveckling och grunderna i objektorienterad programmering. Vi bygger ett enkelt terminalbaserat program för Bankomatuttag (ATM challenge) och lägger grunden för förståelsen hur classer kan interagera med varandra. Vi går igenom fördelarna och utmaningarna med  parprogrammering och använder oss av grundläggande tekniker för versionskontroll. Den individuella helgutmaningen går ut på att skriva ett enkelt program som simulerar ett bibliotekssystem. Det här är dina första steg som programmerare"
 
 - title: Vecka 2
-  image: tdd.png
   summary: Fördjupad TDD och OO i praktiken
-  blurb: "Vi inleder vecka 2 med att lägga grunden för ett online system som låter användarna beställa mat online (Pizza challenge). Vi går även igenom mer avancerad Ruby tekniker så som: lambdas, procs, composition, inheritance, iterators, recursion. Helgutmaningen handlar om att implementera dessa tekniker men även att använda en extern sms-tjänst genom api anrop."
+  blurb: "Vi inleder vecka 2 med att lägga grunden för ett online system som låter användarna beställa mat online (Pizza challenge). Vi går även igenom mer avancerad Ruby tekniker så som: lambdas, procs, composition, inheritance, iterators, recursion. Helgutmaningen handlar om att implementera dessa tekniker men även att använda en extern sms-tjänst genom api anrop. Vi ger deltagarna en första inblick i hur man jobbar med agila utvecklingsmetoder och introducerar Scrum."
 
 - title: Vecka 3
-  image: http.png
   summary: Introduktion till html och JavaScript
   blurb: "Vi forstätter med att introducera ytterligare ett programmeringsspråk med tillhörande testverktyg - JavaScript. Samtidigt går vi igenom grunderna i html och css och bygger en applikation som räknar ut din Body Mass Index (BMI challenge). Vi introducerar även ett ramverk för webbaserade applikationer (Sinatra) och publicerar vår första app på internet."
 
 - title: Vecka 4
-  image: db.png
   summary: Databaser och hantering av användare
-  blurb: "Vi går tillbaka till vår Pizza applikation och använder den utmaningen till att introducera relationsdatabaser och grundläggande kryptering som en del av veckoutmaningen (funktioner för användarregistrering, autentisering och auktorisering). Vi bygger och publicerar vårt system med hjälp av Heroku och introducerar tekniker som Continuous Integration och Continuous Deployment."
+  blurb: "Vi går tillbaka till vår SlowFood applikation och använder den utmaningen till att introducera relationsdatabaser och grundläggande kryptering som en del av veckoutmaningen (funktioner för användarregistrering, autentisering och auktorisering). Vi jobbar med Sinatra och introducerar designmönstret Model-View-Controller. Vid veckans slut är vi redo att gå live med SlowFood Online och vi publicerar vårt system med hjälp av Heroku. För att underlätta och automatisera vår deploy-process använder tekniker som Continuous Integration och Continuous Deployment."
 
 - title: Vecka 5
-  image: js.png
   summary: Front-end utveckling
-  blurb: "Vi introducerar mer avancerade JavaScript ramverk (jQuery) och går igenom hur vi kan förbättra användarupplevelsen. Vi for"
+  blurb: "Vi introducerar mer avancerade JavaScript-baserade ramverk (jQuery) och CSS ramverk (Foundation, Bootstrap) och visat hur vi kan förbättra användarupplevelsen i våra applikationer. Vi fortsätter att utveckla SlowFood online med mer avancerade funktioner och introducerar oAuth authetisering (Facebook, Twitter, mm) men även hur man kan använda montjänster i sina system."
 
 - title: Vecka 6
-  image: lab.png
   summary: Lab Week
-  blurb: "This is a less structured week to allow students to consolidate their learning. Students may choose to revisit topics from the previous weeks, catch up on missed work or explore new projects."
+  blurb: "Halvvägs genom campet är det tid för deltagarna att sätta sina kunskaper i praktiken och släppa taget om coachens trygga vägledning. Det är dax att jobba med ett eget projekt. Syftet är självklart att konsolidera sina kunskaper och börja bygga upp en egen projektportfölj. Under veckan håller vi även föreläsningar och arbetspass i Kanban."
 
-- title: Vecka 7
-  image: advanced-js.png
-  summary: Node.js
-  blurb: "Students expand their knowledge of JavaScript by learning Angular (a popular front-end framework) and Node (JavaScript for the server), combining them to build powerful full-stack applications. The Friday challenge is based on refreshing your Ruby knowledge."
+- title: Vecka 7 - 8
+  summary: Ruby on Rails
+  blurb: "Den här veckan introducerar vi deltagarna till Ruby on Rails - ett ramverk som hjälper programmeraren att följa designmönstret Model-View-Controller (MVC) och lär dem att jobba efter grundprinciperna Convention Over Configuration (Konvention före konfiguration) och Don't Repeat Yourself (DRY) som går ut på att motverka duplicering av kod. Vi introducerar ochså mer omfattande teststrategier och befäster deltagarnas kunskaper för hur de använder tester i sin utvecklingsprocess. Vi forsätter mwd att fördjupa oss i Rails och går igenom mer avancerade tekniker för hur man använder externa bibliotek (gems), API'er, websockets, mm. "
 
-- title: Vecka 8
-  image: rails.png
-  summary: Ruby on Rails Basics
-  blurb: "In week 8 we start working with Ruby on Rails. By now students have a solid understanding of Ruby, the web (HTTP, HTML, JavaScript, etc) and have experience using databases. Armed with all this knowledge, they find Rails easy to understand as it merely automates what they can do without it. This week we talk about ActiveRecord, the asset pipeline, routing and Rails architecture. The Friday challenge focuses on the basics of Ruby on Rails."
 
 - title: Vecka 9
-  image: advanced-rails.png
-  summary: Advanced Ruby on Rails Topics
-  blurb: "This week we talk about more advanced topics: Websockets, HTML5 APIs, using Bootstrap or Foundation, connecting to various APIs: Stripe, Twilio, etc. The challenge for this week focuses on these topics."
+  summary: Angular och Node
+  blurb: "Den här veckan fördjupar vi deltagarnas kunskaper on JavaScript genom att introducera Angular.js, ett populärt front-end ramverk, och Node.js som är en JavaScript ramverk för back-end. Vi tittar även på Ionic som är ett ramverk för utveckling av mobila applikationer (hybrid appar för både Android och iOS). Veckoutmaningen är att koppla ihop SlowFood Online API'm med en mobil applikation och låta användare göra beställningar med sin smart phone"
 
 - title: Vecka 10 & 11
-  image: final-projects.png
-  summary: The Final Project
-  blurb: "By now students are confident junior developers. To put their skills to their test, they build a final project that shows how far they've come since they started. This week we introduce fewer new topics and instead focus on helping students to build the first version of their final project."
+  summary: Slutprojekt
+  blurb: "Vid det här läget är deltagarna mer eller midre självgående och det är åter igen dax att omsätta förgående veckors kunskaper i praktisk tillämpning. Deras produktportfölj kommer att utökas med ytterligare en applikation. I grupper om tre-fyra jobbar de fram em så kallad minimum viable product (MVP) som de sätter i produktion på en egen virtuell server (Digital Ocean)."
 
 - title: Vecka 12
-  image: graduation.png
-  summary: Hiring Week
-  blurb: "This week our new graduates receive the personal attention of our expert placements team. They focus on honing life-long learning skills and preparing to enter the jobs market. This could include technical tests, working on open-source code or even working on projects for charities that we partner with. For those students who attend Makers as entrepreneurs, this is a great week to start working on your MVP!"
+  summary: Kariärrvecka
+  blurb: "Den här veckan används till att finslipa sina slutprojekt och förbereda sig för sin karriär som utvecklare. det är mycket som händer den sista veckan på kursen. På onsdagen håller vi i vår Kariärrdag och på Fredagen är det eximination och Demodag. Det är mycket som ska klaffa."

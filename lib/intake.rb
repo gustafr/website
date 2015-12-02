@@ -3,10 +3,10 @@ require 'date'
 
 class Intake
 
-  FILE_NAME = File.join("data", "intakes.yml")
+  FILE_NAME = File.join('data', 'intakes.yml')
 
   DAYS_IN_WEEK = 7
-  PRECOURSE_LENGTH = 4 * DAYS_IN_WEEK
+  PRECOURSE_LENGTH = 3 * DAYS_IN_WEEK
 
   # We hide courses two days before the precourse starts
   PRECOURSE_BUFFER = 2
@@ -18,15 +18,15 @@ class Intake
   end
 
   def start_date
-    Date.parse(dates["start_date"])
+    Date.parse(dates['start_date'])
   end
 
   def end_date
-    Date.parse(dates["end_date"])
+    Date.parse(dates['end_date'])
   end
 
   def precourse_start_date
-    return Date.parse(dates["precourse_start_date"]) if dates["precourse_start_date"]
+    return Date.parse(dates['precourse_start_date']) if dates['precourse_start_date']
     start_date - PRECOURSE_LENGTH
   end
 
