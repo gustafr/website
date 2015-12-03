@@ -7,10 +7,6 @@
     <!--[if lte IE 8]><!-->
     = stylesheet_link_tag 'compatibility'
     <![endif]-->
-    = partial :'analytics_scripts'
-    %script{src: '//use.typekit.net/fla8fba.js'}
-    :javascript
-      try{Typekit.load();}catch(e){}
     %meta{charset: 'utf-8'}/
     %meta{content: 'ie=edge', 'http-equiv' => 'x-ua-compatible'}/
     %meta{content: 'width=device-width, initial-scale=1', name: 'viewport'}/
@@ -33,6 +29,7 @@
 
     = partial :'footer'
 
+    = partial :'analytics_scripts'
     = javascript_include_tag 'all'
 
     - if config.show_baseline_grid
