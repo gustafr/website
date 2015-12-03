@@ -1555,6 +1555,12 @@ hr {
   hr.hr--full {
     width: 100%; }
 
+.hide-smartphone {
+  display: block !important; }
+@media screen and (max-width: 767px) {
+  .hide-desktop {
+    display: none !important; } }
+
 .hide-desktop {
   display: block !important; }
   @media screen and (min-width: 1024px) {
