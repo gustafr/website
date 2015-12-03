@@ -8,7 +8,7 @@
 
 - title: Vecka 2
   summary: Fördjupad TDD och OO i praktiken
-  blurb: "Vi inleder vecka 2 med att lägga grunden för ett online system som låter användarna beställa mat online (Pizza challenge). Vi går även igenom mer avancerad Ruby tekniker så som: lambdas, procs, composition, inheritance, iterators, recursion. Helgutmaningen handlar om att implementera dessa tekniker men även att använda en extern sms-tjänst genom api anrop. Vi ger deltagarna en första inblick i hur man jobbar med agila utvecklingsmetoder och introducerar Scrum."
+  blurb: "Vi inleder vecka 2 med att lägga grunden för ett online system som låter användarna beställa mat online (SlowFood challenge). Vi går även igenom mer avancerade Ruby tekniker som: lambdas, procs, composition, inheritance, iterators, recursion. Helgutmaningen handlar om att implementera dessa tekniker men även att använda en extern sms-tjänst genom api anrop. Vi ger deltagarna en första inblick i hur man jobbar med agila utvecklingsmetoder och introducerar Scrum."
 
 - title: Vecka 3
   summary: Introduktion till html och JavaScript
@@ -28,12 +28,12 @@
 
 - title: Vecka 7 - 8
   summary: Ruby on Rails
-  blurb: "Den här veckan introducerar vi deltagarna till Ruby on Rails - ett ramverk som hjälper programmeraren att följa designmönstret Model-View-Controller (MVC) och lär dem att jobba efter grundprinciperna Convention Over Configuration (Konvention före konfiguration) och Don't Repeat Yourself (DRY) som går ut på att motverka duplicering av kod. Vi introducerar ochså mer omfattande teststrategier och befäster deltagarnas kunskaper för hur de använder tester i sin utvecklingsprocess. Vi forsätter mwd att fördjupa oss i Rails och går igenom mer avancerade tekniker för hur man använder externa bibliotek (gems), API'er, websockets, mm. "
+  blurb: "Den här veckan introducerar vi deltagarna till Ruby on Rails - ett ramverk som hjälper programmeraren att följa designmönstret Model-View-Controller (MVC) och lär dem att jobba efter grundprinciperna Convention Over Configuration (Konvention före konfiguration) och Don't Repeat Yourself (DRY) som går ut på att motverka duplicering av kod. Vi introducerar ochså mer omfattande teststrategier och befäster deltagarnas kunskaper för hur de använder tester i sin utvecklingsprocess. Vi forsätter med att fördjupa oss i Rails och går igenom mer avancerade tekniker för hur man använder externa bibliotek (gems), API'er, websockets, mm. "
 
 
 - title: Vecka 9
   summary: Angular och Node
-  blurb: "Den här veckan fördjupar vi deltagarnas kunskaper on JavaScript genom att introducera Angular.js, ett populärt front-end ramverk, och Node.js som är en JavaScript ramverk för back-end. Vi tittar även på Ionic som är ett ramverk för utveckling av mobila applikationer (hybrid appar för både Android och iOS). Veckoutmaningen är att koppla ihop SlowFood Online API'm med en mobil applikation och låta användare göra beställningar med sin smart phone"
+  blurb: "Den här veckan fördjupar vi deltagarnas kunskaper on JavaScript genom att introducera Angular.js, ett populärt front-end ramverk, och Node.js som är en JavaScript ramverk för back-end. Vi tittar även på Ionic som är ett ramverk för utveckling av mobila applikationer (hybrid appar för både Android och iOS). Veckoutmaningen är att koppla ihop SlowFood Online API'n med en mobil applikation och låta användare göra beställningar med sin smartphone"
 
 - title: Vecka 10 & 11
   summary: Slutprojekt
