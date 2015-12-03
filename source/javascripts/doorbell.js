@@ -3,7 +3,7 @@ window.doorbellOptions = {
     'feedback-button-text': 'Har du frågor?',
 
     'title': 'Feedback',
-    'intro-text': 'Har du en fråga? Feed-back? Vill du bara säga hej?',
+    'intro-text': 'Har du en fråga? Feedback? Vill du bara säga hej?',
     'feedback-textarea-placeholder': 'Skicka oss dina åsikter eller förslag...',
     // 'feedback-label': '(empty)',
     'email-input-placeholder': 'Din mailaderss',
