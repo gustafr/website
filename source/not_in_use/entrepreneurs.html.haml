@@ -2,19 +2,26 @@
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
   .container
     .centered-row
-      %h1 Become your own cto
-      %h4.subheader learn to code in 12 weeks
+      %h1 Bli din egna CTO
+      %h4.subheader Lär dig att koda
 
-      %P Have you ever dreamed of starting your own business? Or maybe you're already a business owner and want to create your company's website yourself to ensure that your vision becomes a reality? Become involved in every aspect of your business and learn the most essential skill of the future: coding! We've helped many entrepreneurs take complete control over the technical aspects of their company and we can help do the same for you.
-    = partial :"email-capture"
+      %P
+        Har du någonsin drömt om att starta eget företag? Du kanske redan är företagare och vill själv kunna skapa företagets webbplats
+        för att vara säker på att din vision blir verklighet? Engagera dig i varje aspekt av din verksamhet och lär dig det mest väsentliga
+        kunskap för framtiden: kodning!
+      = partial :'email-capture'
 
 %section
   .article--centered
     %article
-      %h3 Why learn to code before launching your business?
-      %p You could have the greatest idea in your head but if you can’t execute it, it’s meaningless. Trying to find a technical co-founder to help build your idea is hard and outsourcing your development work is risky business.
-      %p In today's technology-driven world, knowing the ins and outs of web development could mean the difference between success and failure for companies. Save time, money and stress by learning how to build your own projects for your entrepreneurial ventures
-%hr
+      %h3 VARFÖR SKA DU LÄRA DIG ATT KODA INNAN DU STARTAR DITT FÖRETAG?
+      %p.copy--left
+        Du kan har den bästa av idéer som har en potential att bli riktigt stort, men om du inte kan genomföra den,
+        är den helt meningslös och utan värde. Att försöka hitta en teknisk medgrundare till ditt företag som kan hjälpa
+        till att bygga din idé är svårt och att outsourca utvecklingen eller anställa programmerare är riskfylld och kostsamt.
+      %p.copy--left
+        I dagens teknikdrivna värld kan kunskapen om webb- och applikationsutveckling betyda skillnaden mellan framgång och misslyckande.
+        Du kan spara tid, pengar och stress genom att lära hur man bygger egna projekt för dina entreprenörssatsningar.%hr
 
 %section.no-padding-top.no-min-height
   .article--centered
@@ -68,6 +75,6 @@
             %p
               = link_to "Our Education Philosophy", "/curriculum.html", class: "button--horizontal"
 %hr
-= partial :"benefits_table"
 
-= partial :"apply"
+
+= partial :'apply'

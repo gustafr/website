@@ -92,12 +92,13 @@
     }
 
     input[type="email"] {
+      background-color: white;
       border-radius: $button-border-radius;
       margin-bottom: ma-spacing(1);
       line-height: $base-line-height;
       padding: ma-spacing(0.5);
       // Magic number for the benefit of IE (die)
-      height: 3.22rem;
+      height: 3.25rem;
     }
 
     input[type="submit"] {
