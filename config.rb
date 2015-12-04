@@ -12,7 +12,7 @@ Dir['lib/*.rb'].each { |file| require file }
 activate :directory_indexes
 activate :meta_tags
 
-set :url_root, 'http://new.makersacademy.se'
+set :url_root, 'http://vraftacademy.se'
 activate :search_engine_sitemap
 
 # Change Compass configuration
