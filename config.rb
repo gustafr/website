@@ -15,6 +15,14 @@ activate :meta_tags
 set :url_root, 'http://new.makersacademy.se'
 activate :search_engine_sitemap
 
+# disable layout
+page '.htaccess.apache', layout: false
+
+# rename file after build
+after_build do
+  File.rename 'build/.htaccess.apache', 'build/.htaccess'
+end
+
 # Change Compass configuration
 # compass_config do |config|
 #   config.output_style = :compact
