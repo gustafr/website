@@ -1,3 +1,2 @@
 errors:
-    401: "Unauthorized access"
-    404: /404/index.html
+  404: /404/index.html
