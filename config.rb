@@ -15,6 +15,35 @@ activate :meta_tags
 set :url_root, 'http://craftacademy.se'
 activate :search_engine_sitemap
 
+# disable layout
+page '.htaccess.apache', layout: false
+
+# rename file after build
+after_build do
+  File.rename 'build/.htaccess.apache', 'build/.htaccess'
+end
+
+# Change Compass configuration
+# compass_config do |config|
+#   config.output_style = :compact
+# end
+
+###
+# Page options, layouts, aliases and proxies
+###
+
+# Per-page layout changes:
+#
+# With no layout
+# page "/path/to/file.html", layout: false
+#
+# With alternative layout
+# page "/path/to/file.html", layout: :otherlayout
+#
+# A path which all have the same layout
+# with_layout :admin do
+#   page "/admin/*"
+# end
 
 ###
 # Helpers
