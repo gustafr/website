@@ -1,8 +1,8 @@
 {
-  "name": "makers_styles",
-  "version": "2.4.1",
+  "name": "craftacademy_styles",
+  "version": "2.5.1",
   "authors": [
-    "Makers Engineering <dev@makersacademy.com>"
+    "Craft Academy Engineering <info@makersacademy.se>"
   ],
   "main": [
     "source/sass/all.scss",
