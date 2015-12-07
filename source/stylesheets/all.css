@@ -505,9 +505,21 @@ pre[class*="language-"] {
   cursor: help; }
 
 @font-face {
-  font-family: "linea-arrows-10";
-  src: url("http://assets.makersacademy.com/fonts/linea-arrows-10.eot");
-  src: url("http://assets.makersacademy.com/fonts/linea-arrows-10.eot?#iefix") format("embedded-opentype"), url("http://assets.makersacademy.com/fonts/linea-arrows-10.woff") format("woff"), url("http://assets.makersacademy.com/fonts/linea-arrows-10.ttf") format("truetype"), url("http://assets.makersacademy.com/fonts/linea-arrows-10.svg#linea-arrows-10") format("svg");
+  font-family: 'linea-arrows-10';
+  src: url("//assets.craftacademy.se/fonts/linea-arrows-10.eot");
+  src: url("//assets.craftacademy.se/fonts/linea-arrows-10.eot?#iefix") format("embedded-opentype"), url("//assets.craftacademy.se/fonts/linea-arrows-10.woff") format("woff"), url("//assets.craftacademy.se/fonts/linea-arrows-10.ttf") format("truetype"), url("//assets.craftacademy.se/fonts/linea-arrows-10.svg#linea-arrows-10") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gotham-light';
+  src: url("//assets.craftacademy.se/fonts/gotham-light-webfont.eot");
+  src: url("//assets.craftacademy.se/fonts/gotham-light-webfont.eot?#iefix") format("embedded-opentype"), url("//assets.craftacademy.se/fonts/gotham-light-webfont.woff") format("woff"), url("//assets.craftacademy.se/fonts/gotham-light-webfont.ttf") format("truetype"), url("//assets.craftacademy.se/fonts/gotham-light-webfont.svg#linea-arrows-10") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gotham-medium';
+  src: url("//assets.craftacademy.se/fonts/gotham-medium-webfont.eot");
+  src: url("//assets.craftacademy.se/fonts/gotham-medium-webfont.eot?#iefix") format("embedded-opentype"), url("//assets.craftacademy.se/fonts/gotham-medium-webfont.woff") format("woff"), url("//assets.craftacademy.se/fonts/gotham-medium-webfont.ttf") format("truetype"), url("//assets.craftacademy.se/fonts/gotham-medium-webfont.svg#linea-arrows-10") format("svg");
   font-weight: normal;
   font-style: normal; }
 button, input[type="button"], input[type="reset"], input[type="submit"],
@@ -518,14 +530,14 @@ button, input[type="button"], input[type="reset"], input[type="submit"],
   -o-appearance: none;
   appearance: none;
   border: 2px solid #062533;
-  color: #AA1925;
+  color: #f28e24;
   -webkit-font-smoothing: antialiased;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 8px;
   cursor: pointer;
   display: inline-block;
-  font-family: "futura-pt", Futura, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 18px;
+  font-family: "gotham-light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 16px;
   font-weight: normal;
   line-height: 1.5rem;
   padding: 0.75rem;
@@ -554,11 +566,11 @@ button, input[type="button"], input[type="reset"], input[type="submit"],
       min-width: 10em; } }
 
 .button--vertical {
-  color: #AA1925;
-  border-color: #AA1925; }
+  color: #f28e24;
+  border-color: #f28e24; }
   .button--vertical:hover {
-    color: #7e121b;
-    border-color: #7e121b; }
+    color: #d6740d;
+    border-color: #d6740d; }
 
 .button--horizontal {
   color: #062533;
@@ -587,8 +599,8 @@ label,
 textarea,
 select {
   display: block;
-  font-family: "futura-pt", Futura, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 18px;
+  font-family: "gotham-light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 16px;
   line-height: 1.5rem; }
 
 label {
@@ -656,7 +668,7 @@ legend span {
   font-size: 1.333rem;
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
-  color: #AA1925; }
+  color: #f28e24; }
   @media screen and (min-width: 1024px) {
     legend span {
       font-size: 1.77689rem;
@@ -750,7 +762,7 @@ dl {
     @media screen and (min-width: 1024px) {
       .definition-row aside .definition-links {
         padding-top: 0;
-        width: 16.66667em; } }
+        width: 18.75em; } }
     .definition-row aside .definition-links a {
       text-decoration: none; }
   .definition-row aside .definition-link {
@@ -891,8 +903,8 @@ body, html {
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
   color: #444;
-  font-family: "futura-pt", Futura, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 18px;
+  font-family: "gotham-light", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 16px;
   line-height: 1.5rem; }
 
 h1,
@@ -901,14 +913,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "futura-pt", Futura, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-size: 18px;
+  font-family: "gotham-medium", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 16px;
   line-height: 1.5rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   font-weight: 500;
-  color: #AA1925;
+  color: #f28e24;
   margin: 0 0 1.5rem; }
   @media screen and (max-width: 480px) {
     h1,
@@ -965,7 +977,7 @@ h4 {
     h4.subheader + .subheader {
       margin-top: 0; }
   h4.alt-color {
-    color: #AA1925; }
+    color: #f28e24; }
 
 .header-container {
   display: table-cell;
@@ -973,16 +985,16 @@ h4 {
 
 p {
   margin: 0 0 1.5rem;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400; }
   p:last-child {
     margin-bottom: 0; }
   @media screen and (min-width: 1024px) {
     p {
-      font-size: 18px; } }
+      font-size: 16px; } }
 
 .small {
-  font-size: 13.50338px;
+  font-size: 12.003px;
   color: #6a6a6a; }
 
 a {
@@ -1007,7 +1019,7 @@ blockquote {
   /* theme */
   font-style: italic;
   text-indent: 2em;
-  font-size: 18px; }
+  font-size: 16px; }
   blockquote:before {
     display: block;
     position: absolute;
@@ -1077,7 +1089,7 @@ figure.with-caption {
         position: absolute;
         bottom: 1.5rem;
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
         font-style: italic;
         text-align: right;
         color: #FFFFFF;
@@ -1118,7 +1130,7 @@ figure.with-caption {
   padding: 8px 1.333rem;
   transition: opacity 0.2s ease-in-out; }
   .image--brand img {
-    height: 40px; }
+    height: 35px; }
   .image--brand:hover {
     opacity: 1; }
 
@@ -1208,7 +1220,7 @@ figure.with-caption {
         background-color: #FFFFFF;
         display: inline;
         float: left;
-        height: 16.66667em;
+        height: 18.75em;
         width: 20%; } }
   @media screen and (min-width: 640px) {
     .vertical-tabs-container .vertical-tab {
@@ -1232,7 +1244,7 @@ figure.with-caption {
       outline: none; }
     @media screen and (min-width: 640px) {
       .vertical-tabs-container .vertical-tab-content-container {
-        height: 16.66667em;
+        height: 18.75em;
         width: 80%;
         background-color: #f7f7f7;
         display: inline-block; } }
@@ -1265,7 +1277,7 @@ figure.with-caption {
         display: none; } }
 
 p.deprecated-browser-warning {
-  background-color: #AA1925;
+  background-color: #f28e24;
   z-index: 1000;
   position: fixed;
   color: white;
@@ -1329,11 +1341,11 @@ p.deprecated-browser-warning a {
   background-color: #EFF7F2;
   border-bottom: 3px solid #abd5bb; }
   .panel--success p {
-    color: #3c7852; }
+    color: #3c7853; }
   .panel--success a.close {
     color: #89c49f; }
     .panel--success a.close:hover {
-      color: #67b383; }
+      color: #67b384; }
 
 .panel--alert {
   background-color: #faf2cb;
@@ -1354,7 +1366,7 @@ p.deprecated-browser-warning a {
   top: 0; }
   .mobile-navigation nav {
     position: relative;
-    background: #AA1925;
+    background: #f28e24;
     padding: 3rem;
     width: 100%;
     left: 0;
@@ -1382,7 +1394,7 @@ p.deprecated-browser-warning a {
     cursor: pointer; }
     .mobile-navigation .nav-trigger-label:before {
       color: rgba(255, 255, 255, 0.9);
-      font-size: 56.83202px;
+      font-size: 50.51735px;
       font-family: "linea-arrows-10" !important;
       font-style: normal !important;
       font-weight: normal !important;
@@ -1432,6 +1444,7 @@ header.navigation {
           margin-bottom: 0; }
           header.navigation nav ul li {
             display: inline;
+            font-size: 0.9rem;
             text-align: right;
             padding-right: 1.9995rem; }
             header.navigation nav ul li.current a:after {
@@ -1487,7 +1500,7 @@ section {
       display: table; }
     @media screen and (min-width: 1024px) {
       section .container--narrow {
-        max-width: 43.33333em;
+        max-width: 48.75em;
         margin-left: auto;
         margin-right: auto; }
         section .container--narrow::after {
@@ -1496,7 +1509,7 @@ section {
           display: table; } }
 
 .backgrounded, .hero, .hero-splash, .hero-small, .hero--apply {
-  background-color: #00333F;
+  background-color: #f28e24;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -1510,7 +1523,7 @@ hr {
   border-right: none;
   border-top: none;
   display: block;
-  margin: 0 auto 1.38889rem;
+  margin: 0 auto 1.375rem;
   width: 61.8%;
   position: relative; }
   hr:after, hr:before {
@@ -1612,7 +1625,7 @@ p.deprecated-browser-warning {
     height: 100%; }
   .centered-row p, footer .footer-copyright p {
     margin: 0 auto 1.5rem;
-    max-width: 32.22222em; }
+    max-width: 36.25em; }
     .centered-row p:last-child, footer .footer-copyright p:last-child {
       margin-bottom: 0; }
 
@@ -1679,11 +1692,12 @@ p.deprecated-browser-warning {
     width: 80%;
     margin: 0 auto; }
   .email-capture-row form input[type="email"] {
+    background-color: white;
     border-radius: 8px;
     margin-bottom: 1.5rem;
     line-height: 1.5rem;
     padding: 0.75rem;
-    height: 3.22rem; }
+    height: 3.25rem; }
   .email-capture-row form input[type="submit"] {
     width: 10em; }
   @media screen and (min-width: 1024px) {
@@ -1920,7 +1934,7 @@ p.deprecated-browser-warning {
 footer {
   color: #FFFFFF;
   text-align: center;
-  background-color: #AA1925; }
+  background-color: #f28e24; }
   @media screen and (min-width: 1024px) {
     footer {
       min-height: 38.2vh; } }
@@ -1955,7 +1969,7 @@ footer {
     @media screen and (min-width: 1024px) {
       footer .container {
         padding: 1.5rem 3.15733rem 0 3.15733rem;
-        background-color: #AA1925;
+        background-color: #f28e24;
         text-align: left; } }
   footer .footer-links {
     display: table;
@@ -1986,9 +2000,9 @@ footer {
         font-size: 1rem; }
   footer .footer-logos {
     text-align: center;
-    font-size: 18px; }
+    font-size: 16px; }
     footer .footer-logos a {
-      font-size: 18px; }
+      font-size: 16px; }
     footer .footer-logos .footer-logo {
       display: inline-block;
       margin-right: 1.77689rem; }
@@ -2150,7 +2164,7 @@ footer {
     cursor: pointer;
     transition: all 0.2s ease-in-out; }
   .slick-prev:hover:before, .slick-next:hover:before {
-    color: #AA1925; }
+    color: #f28e24; }
   .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
     background: transparent;
     color: transparent;
@@ -2235,7 +2249,7 @@ footer {
       color: rgba(68, 68, 68, 0.4);
       font-size: 0.75019rem; }
     .article article p, .article--left article p, .article--centered article p, .article--right article p {
-      max-width: 32.22222em;
+      max-width: 36.25em;
       font-weight: 400;
       letter-spacing: 1; }
       .article article p span, .article--left article p span, .article--centered article p span, .article--right article p span {
@@ -2266,7 +2280,7 @@ footer {
     display: table; }
   @media screen and (min-width: 1024px) {
     .article--centered {
-      max-width: 32.22222em;
+      max-width: 36.25em;
       margin-left: auto;
       margin-right: auto; }
       .article--centered::after {
@@ -2351,7 +2365,7 @@ footer {
   padding: 0 !important;
   background: #062533; }
   .tab-content--code pre {
-    max-width: 32.22222em;
+    max-width: 36.25em;
     margin: 0 auto;
     overflow: scroll; }
     .tab-content--code pre code {
