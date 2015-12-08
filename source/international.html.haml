@@ -1,0 +1,141 @@
+- description 'Craft Academy is a leading Web Developer Bootcamp in Scandinavia. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices.'
+%section.hero-splash{style: "background-image: url(#{image_path('backgrounds/splash_gothenburg.jpg')});"}
+  .container
+    .centered-row
+      %h4.leader Become your own CTO
+      %h1 Learn the craft of coding in Scandinavia
+      %h4.subheader Spend 12 weeks with Sweden’s #1 Developer Bootcamp and get the ground running.
+      = partial :'email-capture', locals: { language: 'en' }
+
+%section
+  .container
+    %article
+      %h2 Why should you Learn to code?
+      %h4 Take control of the thechnology side of your business
+      %p.copy--left
+        %strong
+          It is the nature of the framework to change and evolve rapidly and as an entrepreneur you need to stay up to date with the web and new technologies.
+          Facing continues change and development suits with the very essence of a startup.
+      %p.copy--left
+        Vi tror att traditionell utbildning lär människor att klara prov, snarare än att ge dem verklig kunskap.
+        På Craft Academy ger vi dig inte några betyg eller diplom. Istället för att bli 'lärd' kommer du vilja lära dig själv.
+        På det sättet är vår kurs unik, inte bara på grund av dess intensitet, utan även på grund av vårt tillvägagångssätt.
+        Vi ger dig en strukturerad daglig läroplan, projekt, övningar och utmaningar, men det är du som gör det tunga jobbet och tar ansvar för din egna utveckling.
+    %section
+      .centered-row
+        %h2 Målgrupp
+        %h4 Vi vänder oss till dig som är redo att kavla upp ärmarna och jobba hårt för att förverkliga dina mål.
+        %table
+          %tbody
+            %tr
+              %td Nybörjare som vill börja eller nyligen börjat lära sig att koda
+              %td Yrkesfolk som vill genomföra ett karriärbyte och ta steget in i IT-branshen.
+            %tr
+              %td Entreprenörer som jobbar med tekniska innovationer och som vill förstärka sin kompetens.
+              %td Studenter inom Computer Science som behöver praktisk erfarenhet.
+            %tr
+              %td Projektledare som vill bredda sin kompetens och förstå utvecklingsprocessen.
+              %td Skoltrötta som inte vill studera på universitetet men ändå kunna jobba i en spännande och fartfylld bransch.
+    %article
+      %p.copy--left
+        Vi ger dig alla verktyg du behöver för att bli en bra programmerare - tillgång till en beprövad läroplan, erfarna coacher på plats och på distans, möjlighet att samverka med deltagare i andra delar av Norden men även en egen MacBook Pro så att du får en bra utvecklarmiljö att jobba i.
+      %p.copy--left
+        Du tillbringar dina dagar på plats i våra lokaler vid Chalmers Innovation i Göteborg eller på någon av våra Remote Classroom och tar en aktiv roll i gemensamma föreläsningspass, projektarbeten och möten. Förutom svenska är engelska vårt arbetsspråk. Den mängd av engagemang du tillför till programmet återspeglar sig i dina resultat.
+
+    .half-slider.half-slider--reverse
+      .half-slider-row
+        .hide-desktop
+          .copy.copy--right
+            %h4.leader Craft Academy's unique
+            %h2 Curriculum
+            %p
+              One of the biggest challenges that you might face when you learn how to code, is to know in which order you should learn things in.
+              We deal with this challenge by offering a unique curriculum developed by professional software engineers and based on real cases and modern best practices.
+            .button-row.shift-to-bottom
+              %p
+                = link_to 'Education Manifesto', 'http://blog.makersacademy.se/education-manifesto/', class: 'button button--horizontal', target: '_blank'
+        .column
+          .slider
+            .slide
+              %h3 Ruby
+              %p
+                Clean, elegant, easy to read. It is for the Ruby programming language. As the name ‘Ruby’ speaks for itself, the language is designed to be a joy to use thanks to readability and elegance.
+            .slide
+              %h3 Ruby on Rails
+              %p
+                Ruby on Rails is highly suitable for websites that require a lot of content input, storage and management because you would be easily navigating the site, uploading and managing content.
+            .slide
+              %h3 HTML5
+              %p HTML5 är grundbulten inom webbutveckling. Grunderna är alltid viktiga och vi visar dig hur man strukturerar webbsidor och gör dem till en engagerande upplevelse för användarna.
+            .slide
+              %h3 JavaScript
+              %p Varje webbapplikation behöver en front-end, och med javascript kan du skapa dynamiska, engagerande webbapplikationer. Du kommer att lära dig skriva & felsöka JavaScript på klientsidan för att skapa moderna sidor för olika enheter.
+            .slide
+              %h3 git
+              %p Du behöver ha koll på ändringarna i dina projekt, spara dessa på ett informativt sätt samt kunna återställa tidigare versioner snabbt om något skulle strula. Säg hej till Git.
+            .slide
+              %h3 Agile & Lean
+              %p Du får lära dig moderna lean startup principer och agila metoder som används inom mjukvaruutveckling samt bästa praxis som t ex parprogrammering, dagliga stand-ups, Kanban och utveckling i team.
+            .slide
+              %h3
+                = 'System-<br>utveckling'.html_safe
+              %p Från designmönster som Model-View-Controller eller SOLID till Testdriven utveckling. Vi lär dig hur man utvecklar system enligt bästa praxis som baseras på andra programmerares tidigare erfarenheter - saker du kan inte lära dig själv.
+        .column.show-desktop
+          .copy.copy--right
+            %h4.leader Craft Academy's unique
+            %h2 Curriculum
+            %p
+              One of the biggest challenges that you might face when you learn how to code, is to know in which order you should learn things in.
+              We deal with this challenge by offering a unique curriculum developed by professional software engineers and based on real cases and modern best practices.
+            .button-row
+              %p
+                = link_to 'Education Manifesto', 'http://blog.makersacademy.se/education-manifesto/', class: 'button button--horizontal', target: '_blank'
+
+
+
+
+%section.half-slider.half-slider--reverse.with-padding
+  .container
+    .half-slider-row
+      .hide-desktop
+        .copy.copy--right
+          %h4.leader A World-Leading
+          %h2 Curriculum
+          %p We're passionate about education and software development. Our course has been designed by industry experts to introduce you to the most-used technologies in today's marketplace, and to equip you with the skills you need to quickly find a job as a junior developer.
+          .button-row.shift-to-bottom
+            %p
+              = link_to "Our Education Philosophy", "/curriculum.html", class: "button--horizontal"
+      .column
+        .slider
+          .slide
+            .image--centered
+              = image_tag "technologies/ruby-logo.png", height: 150
+            %h3 Ruby
+            %p Ruby is a general-purpose programming language. The brainchild of many other brilliant languages, it's an intuitive route into programming. Ruby is used in web applications through frameworks like Rails and Sinatra.
+          .slide
+            .image--centered
+              = image_tag "technologies/html5-logo.png", height: 150
+            %h3 HTML
+            %p HTML is the building material of the web. We'll guide you towards building beautiful, structured webpages and altering content dynamically, both on the server and client-side.
+          .slide
+            .image--centered
+              = image_tag "technologies/javascript-logo.png", height: 150
+            %h3 JavaScript
+            %p JavaScript is rapidly becoming the biggest programming language in the world. You can use it anywhere: to animate text on a page, to run a high-throughput server, and to enable your coffee machine to work over WiFi.
+          .slide
+            .image--centered
+              = image_tag "technologies/git-logo.png", height: 150
+            %h3 git
+            %p git is the world's most popular way to manage, share, and distribute code. We embed best GitHub practices from the get-go, which perfectly suits out focus on Pair Programming - and our Hiring Partners.
+      .column.show-desktop
+        .copy.copy--right
+          %h4.leader A World-Leading
+          %h2 Curriculum
+          %p We're passionate about education and software development. Our course has been designed by industry experts to introduce you to the most used technologies in today's marketplace, and to equip you with the skills you need to quickly find a job as a Junior Developer.
+          .button-row
+            %p
+              = link_to "Our Education Philosophy", "/curriculum.html", class: "button--horizontal"
+%hr
+
+
+= partial :'apply', locals: { language: 'en' }

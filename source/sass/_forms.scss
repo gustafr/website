@@ -74,6 +74,7 @@ input[type="tel"],
 input[type="email"] {
   line-height: $base-line-height * 2.5;
   height: $base-line-height * 3;
+  color: grey !important;
 }
 
 legend {
