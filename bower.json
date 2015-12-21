@@ -2,7 +2,7 @@
   "name": "craftacademy_styles",
   "version": "2.5.2",
   "authors": [
-    "Craft Academy Engineering <info@makersacademy.se>"
+    "Craft Academy Engineering <info@craftacademy.se>"
   ],
   "main": [
     "source/sass/all.scss",
