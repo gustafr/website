@@ -25,6 +25,10 @@ class Intake
     Date.parse(dates['end_date'])
   end
 
+  def locations
+    dates['locations']
+  end
+
   def precourse_start_date
     return Date.parse(dates['precourse_start_date']) if dates['precourse_start_date']
     start_date - PRECOURSE_LENGTH

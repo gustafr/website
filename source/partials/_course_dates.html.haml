@@ -13,9 +13,11 @@
             %th Förberedande kurs
             %th Kursstart
             %th Examen
+            %th Plats
         %tbody
           - Intake.future_dates.each do |intake|
             %tr
               %td{data:{header: 'Förberedande kurs'}}= intake.precourse_start_date.strftime('%-d %B %Y')
               %td{data:{header: 'Kursstart'}}= intake.start_date.strftime('%-d %B %Y')
               %td{data:{header: 'Examen'}}= intake.end_date.strftime('%-d %B %Y')
+              %td{data:{header: 'Plats'}}= intake.locations

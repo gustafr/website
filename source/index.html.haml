@@ -18,7 +18,7 @@
 
 %section
   .container
-    %h3 Hitta hit
+    %h3 Hitta oss
     %p.copy--left
       Du kan delta i Craft Academy på distans och jobba hemifrån men vi tror att de bästa effekterna uppnås om deltagarna jobbar nära varandra och coacherna.
       Just nu finns vi på två fysiska platser och kommer att öppna upp i ytterligare två städer under våren 2016.
@@ -34,10 +34,15 @@
                 %h3 Göteborg
                 %p I Göteborg hittar du oss vid Chalmers Innovation Stena Center på Holtermansgatan 1 (mittemot stora Chalmers ingången).
       %li.tab-header-and-content
-        %a.tab-link{href: '#'} Uppsala
+        %a.tab-link{href: '#'} Stockholm
         .tab-content
-          %h3 Stockholm
-          %p Just nu förbereder vi vår etablering i Stockholm och återkommer med information under december 2015.
+          .half-slider
+            .half-slider-row
+              .column
+                = image_tag 'maps/stockholm.png', width: '400px'
+              .column
+                %h3 Stockholm
+                %p I Stockholm öppnar vi upp i februari 2016 och du kommer att hitta oss på OpenLab på Valhallavägen 79 (I närheten av Tekniska Högskolan).
 
 
 = partial :'apply', locals: { page: :employers }
