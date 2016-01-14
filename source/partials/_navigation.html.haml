@@ -4,17 +4,22 @@
   %nav{role: 'navigation'}
     .image--centered.image--small
       = image_tag 'logo/graphic_only_logo_white.png'
-    %ul.navigation-menu
-      %li{ class: current_if_current_page(current_page, '/') }
-        = link_to 'Hem', '/'
-      %li{ class: current_if_current_page(current_page, '/students/') }
-        = link_to 'Studenter', '/students.html'
-      %li{ class: current_if_current_page(current_page, '/employers/') }
-        = link_to 'Arbetsgivare', '/employers.html'
-      %li{ class: current_if_current_page(current_page, '/curriculum/') }
-        = link_to 'Läroplan', '/curriculum.html'
-      %li{ class: current_if_current_page(current_page, '/payment/') }
-        = link_to 'Priser'.mb_chars.upcase, '/payment.html'
+    - if current_page.url == '/pretoria/'
+      %ul.navigation-menu
+        %li{ class: current_if_current_page(current_page, '/students/') }
+          = link_to 'curriculum'.mb_chars.upcase, '/sa_curriculum.html'
+    - else
+      %ul.navigation-menu
+        %li{ class: current_if_current_page(current_page, '/') }
+          = link_to 'Hem', '/'
+        %li{ class: current_if_current_page(current_page, '/students/') }
+          = link_to 'Studenter', '/students.html'
+        %li{ class: current_if_current_page(current_page, '/employers/') }
+          = link_to 'Arbetsgivare', '/employers.html'
+        %li{ class: current_if_current_page(current_page, '/curriculum/') }
+          = link_to 'Läroplan', '/curriculum.html'
+        %li{ class: current_if_current_page(current_page, '/payment/') }
+          = link_to 'Priser'.mb_chars.upcase, '/payment.html'
 
 %header{class: 'navigation auto-hide', role: 'banner'}
   %nav{role: 'navigation'}
