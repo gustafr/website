@@ -24,7 +24,7 @@
 //= require vendor/prism
 //= require navigation
 //= require jquery.fixedscroll
-//= require doorbell
+// require doorbell
 //= require vendor/baseliner
 //= require tabs
 //= require vertical_tabs

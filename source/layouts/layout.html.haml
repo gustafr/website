@@ -32,6 +32,11 @@
 
     = javascript_include_tag 'all'
 
+    - if current_page.url == '/pretoria/'
+      = javascript_include_tag 'doorbell_sa'
+    - else
+      = javascript_include_tag 'doorbell'
+
     - if config.show_baseline_grid
       %script{:src => 'http://files.keyes.ie/things/baseliner/baseliner-latest.min.js'}
         :cdata
