@@ -79,7 +79,7 @@ set :images_dir, 'images'
 sprockets.append_path File.join root, 'bower_components'
 
 set :apply_form_url, 'https://makerssweden.typeform.com/to/UlIfGg'
-set :apply_sa_form_url, 'https://makerssweden.typeform.com/to/UlIfGg'
+set :apply_sa_form_url, '/pretoria'
 set :hire_form_url, 'https://makerssweden.typeform.com/to/SQcaqh'
 
 # Ignore folders with unused templates
