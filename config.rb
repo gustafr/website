@@ -79,7 +79,7 @@ set :images_dir, 'images'
 sprockets.append_path File.join root, 'bower_components'
 
 set :apply_form_url, 'https://makerssweden.typeform.com/to/UlIfGg'
-set :apply_sa_form_url, '/pretoria'
+set :apply_sa_form_url, '//apply.thecraftacademy.co.za'
 set :hire_form_url, 'https://makerssweden.typeform.com/to/SQcaqh'
 
 # Ignore folders with unused templates
@@ -91,7 +91,7 @@ ignore 'case-studies/*' #as long as we don't present students
 redirect 'payments/new.html', to: "#{config.apply_form_url}"
 redirect 'apply.html', to: config.apply_form_url
 redirect 'apply-for-ronin.html', to: "#{config.apply_form_url}"
-redirect 'blog.html', to: 'http://blog.makersacademy.se'
+redirect 'blog.html', to: 'http://blog.craftacademy.se'
 
 
 activate :deploy do |deploy|

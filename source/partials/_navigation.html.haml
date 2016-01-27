@@ -29,7 +29,7 @@
         -# %li{ class: current_if_current_page(current_page, '/students/') }
         -#   = link_to 'curriculum'.mb_chars.upcase, '/sa_curriculum.html'
         %li{ class: current_if_current_page(current_page, '/apply/') }
-          = link_to 'Apply'.mb_chars.upcase, config.apply_sa_form_url, class: 'button button--vertical'
+          = link_to 'Apply'.mb_chars.upcase, config.apply_sa_form_url, class: 'button button--vertical', target: '_blank'
 
     - else
       %ul.navigation-menu
