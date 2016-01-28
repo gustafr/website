@@ -1,12 +1,6 @@
 - language ||= :se
-
-- if current_page.url == '/pretoria/'
-  - action = '//thinkbots.us12.list-manage.com/subscribe/post?u=c10295c9eaf4e201b46f8146a&amp;id=07a6e4972a'
-- else
-  - action = '//makersacademy.us10.list-manage.com/subscribe/post?u=6ca79a0f8c0241a6890bd8aad&id=074eacc0c6'
-
 .email-capture-row
-  %form.email-capture{action: action, method: 'post', name: 'mc-embedded-subscribe-form'}
+  %form.email-capture{id: 'mc-form', name: 'mc-embedded-subscribe-form'}
     %label{for: 'mailchimp-email'}
     %input{type: 'email', id: 'mailchimp-email', placeholder: (language == :se ? 'Din mailadress' : 'Your email'), required: true}
     %input{type: 'submit', value: (language == :se ? 'Jag vill veta mer' : 'Keep me posted')}
