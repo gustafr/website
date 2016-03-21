@@ -25,17 +25,17 @@
 
     .vertical-tabs-container
       .vertical-tabs
-        %a.js-vertical-tab.vertical-tab.is-active{href: "javascript:void(0)", rel: "tab1"} Göteborg
-        %a.js-vertical-tab.vertical-tab{href: "javascript:void(0)", rel: "tab2"} Stockholm
+        %a.js-vertical-tab.vertical-tab.is-active{href: 'javascript:void(0)', rel: 'tab1'} Göteborg
+        %a.js-vertical-tab.vertical-tab{href: 'javascript:void(0)', rel: 'tab2'} Stockholm
 
       .vertical-tab-content-container
-        %a.js-vertical-tab-accordion-heading.vertical-tab-accordion-heading.is-active{:href => "", :rel => "tab1"} Item 1
+        %a.js-vertical-tab-accordion-heading.vertical-tab-accordion-heading.is-active{href: '', rel: 'tab1'} Göteborg
         #tab1.js-vertical-tab-content.vertical-tab-content
           = image_tag 'maps/gothenburg.png', width: '400px'
           %h3 Göteborg
           %p I Göteborg hittar du oss vid Chalmers Innovation Stena Center på Holtermansgatan 1
           %p (mittemot stora Chalmers ingången).
-        %a.js-vertical-tab-accordion-heading.vertical-tab-accordion-heading{:href => "", :rel => "tab2"} Item 2
+        %a.js-vertical-tab-accordion-heading.vertical-tab-accordion-heading{href: '', rel: 'tab2'} Stockholm
         #tab2.js-vertical-tab-content.vertical-tab-content
           = image_tag 'maps/stockholm.png', width: '400px'
           %h3 Stockholm
