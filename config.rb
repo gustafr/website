@@ -81,6 +81,7 @@ sprockets.append_path File.join root, 'bower_components'
 set :apply_form_url, 'https://makerssweden.typeform.com/to/UlIfGg'
 set :apply_sa_form_url, '//apply.thecraftacademy.co.za'
 set :hire_form_url, 'https://makerssweden.typeform.com/to/SQcaqh'
+set :class_site_url, 'http://class.craftacademy.se'
 
 # Ignore folders with unused templates
 ignore 'elements/*'
