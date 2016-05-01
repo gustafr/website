@@ -12,7 +12,7 @@ Dir['lib/*.rb'].each { |file| require file }
 activate :directory_indexes
 activate :meta_tags
 
-set :url_root, 'http://craftacademy.se'
+set :url_root, 'https://craftacademy.se'
 activate :search_engine_sitemap
 
 # disable layout
@@ -92,7 +92,7 @@ ignore 'case-studies/*' #as long as we don't present students
 redirect 'payments/new.html', to: "#{config.apply_form_url}"
 redirect 'apply.html', to: config.apply_form_url
 redirect 'apply-for-ronin.html', to: "#{config.apply_form_url}"
-redirect 'blog.html', to: 'http://blog.craftacademy.se'
+redirect 'blog.html', to: 'https://blog.craftacademy.se'
 
 
 activate :deploy do |deploy|
