@@ -13,20 +13,23 @@
     / Always force latest IE rendering engine or request Chrome Frame
     %meta{content: 'IE=edge,chrome=1', 'http-equiv' => 'X-UA-Compatible'}/
 
+    %link{href: image_path('favicons/favicon.ico'), rel: 'shortcut icon', type: 'image/x-icon'}/
+
     - if current_page.url == '/pretoria/' || current_page.url == '/international/'
       = display_meta_tags site: 'Learn how to program in 12 weeks with Craft Academy'
     - else
       = display_meta_tags site: 'Programmering | Lär dig programmera på 12 veckor med Craft Academy'
 
     = partial :'social_media_meta'
-    = partial :'analytics_scripts'
-    %link{href: image_path('favicons/favicon.ico'), rel: 'shortcut icon', type: 'image/x-icon'}/
-  -#%link{href: image_path('favicons/favicon-32x32.png'), rel: 'icon', sizes: '32x32', type: 'image/png'}/
-  -#%link{href: image_path('favicons/favicon-96x96.png'), rel: 'icon', sizes: '96x96', type: 'image/png'}/
-  -#%link{href: image_path('favicons/favicon-16x16.png'), rel: 'icon', sizes: '16x16', type: 'image/png'}/
+
+    -unless current_page.url == '/pretoria/'
+      = partial :'analytics_scripts'
+
   %body{class: page_classes}
-    -# Tag manager must go in the body, the other analytics scripts go in the head
-    -# = partial :'google_tag_manager'
+    - if current_page.url == '/pretoria/'
+      -# Tag manager must go in the body, the other analytics scripts go in the head
+      = partial :'google_tag_manager_sa'
+
     = partial :'deprecated_browser_warning'
     = partial :'navigation'
 
