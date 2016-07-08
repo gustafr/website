@@ -38,8 +38,9 @@
 
     = javascript_include_tag 'all'
 
-    - if current_page_is_pretoria?
+    - if international_pages?
       = javascript_include_tag 'doorbell_sa'
+    - elsif current_page_is_pretoria?
       = javascript_include_tag 'mailchimp_sa'
     - else
       = javascript_include_tag 'doorbell'
