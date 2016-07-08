@@ -15,19 +15,18 @@
 
     %link{href: image_path('favicons/favicon.ico'), rel: 'shortcut icon', type: 'image/x-icon'}/
 
-    - if current_page.url == '/pretoria/' || current_page.url == '/international/'
+    - if international_pages?
       = display_meta_tags site: 'Learn how to program in 12 weeks with Craft Academy'
     - else
       = display_meta_tags site: 'Programmering | Lär dig programmera på 12 veckor med Craft Academy'
 
     = partial :'social_media_meta'
 
-    -unless current_page.url == '/pretoria/'
+    -unless current_page_is_pretoria?
       = partial :'analytics_scripts'
 
   %body{class: page_classes}
-    - if current_page.url == '/pretoria/'
-      -# Tag manager must go in the body, the other analytics scripts go in the head
+    - if current_page_is_pretoria?
       = partial :'google_tag_manager_sa'
 
     = partial :'deprecated_browser_warning'
@@ -39,7 +38,7 @@
 
     = javascript_include_tag 'all'
 
-    - if current_page.url == '/pretoria/'
+    - if current_page_is_pretoria?
       = javascript_include_tag 'doorbell_sa'
       = javascript_include_tag 'mailchimp_sa'
     - else

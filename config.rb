@@ -63,6 +63,16 @@ helpers CurrentPageHelper,
         RawHelper,
         StatsHelper
 
+helpers do
+  def current_page_is_pretoria?
+    current_page.url.match(/pretoria/)
+  end
+
+  def international_pages?
+    current_page.url.match(/international|pretoria/)
+  end
+end
+
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 data.graduates.each do |grad|
   if grad[:case_study]
