@@ -50,7 +50,4 @@
             - else
               = link_to 'Läs mer', '/students.html', class: 'button button--horizontal'
           - else
-            - if current_page.url == '/pretoria/'
-              = link_to 'Apply', config.apply_sa_form_url, class: 'button button--vertical button--large'
-            - else
-              = link_to 'Apply', config.apply_form_url, class: 'button button--vertical button--large'
+            = link_to 'Apply', config.apply_sa_form_url, class: 'button button--vertical button--large'
