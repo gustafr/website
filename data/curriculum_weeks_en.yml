@@ -20,11 +20,11 @@
 - title: Week 3
   summary: Pair Programming and User-Driven Development
   blurb: This week we begin to lay the foundation for an online system that allows users to order food online (Slow Food Challenge).
-   We introduce a framework for web based applications (Sinatra) and give participants an first insight into agile development
-   focusing on Behavior Driven Development.
-   Slow Food Challenge is also about begining to think in the Model-View-Controller design pattern, about relational and about features for user registration, authentication and authorization.
-   At the end of the week, we are ready to go live with the Slow Food Online application and we deploy our system using Heroku.
-   To facilitate and automate our deploy process we use techniques such as Continuous Integration and Continuous Deployment.
+   We introduce a framework for web based applications (Sinatra) and give participants an first insight into agile development
+   focusing on Behavior Driven Development.
+   Slow Food Challenge is also about begining to think in the Model-View-Controller design pattern, about relational and about features for user registration, authentication and authorization.
+   At the end of the week, we are ready to go live with the Slow Food Online application and we deploy our system using Heroku.
+   To facilitate and automate our deploy process we use techniques such as Continuous Integration and Continuous Deployment.
 
 - title: Vecka 4
   summary: Statiska siter och programmeringstekniker
