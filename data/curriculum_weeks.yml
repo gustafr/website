@@ -4,15 +4,20 @@
 
 - title: Vecka 1
   summary: Testdriven utveckling och objektorienterad programmering
-  blurb: "Vi inleder kursen med att gå igenom principerna med Testdriven utveckling och grunderna i objektorienterad programmering. Vi bygger ett enkelt terminalbaserat program för Bankomatuttag (ATM challenge) och lägger grunden för förståelsen hur klasser kan interagera med varandra. Vi går igenom fördelarna och utmaningarna med  parprogrammering och använder oss av grundläggande tekniker för versionskontroll. Den individuella helgutmaningen går ut på att skriva ett enkelt program som simulerar ett bibliotekssystem. Det här är dina första steg som programmerare"
+  blurb: Första veckans utmaning handlar om att bygga en enkel Bankomatsimulator. Låter kanske trivialt men utmaningen ligger i
+   att förstå hur en vardaglig situation kan se ut när man tänker i programmeringstermer och hur olika objekt interagerar med varandra.
+   Under veckan introducerar vi en mängd nya begrepp och koncept som lägger grunden för din fortsatta utveckling. Vi prakticerar par programmering
+   och test driven utveckling. Vi tampas med versionskontroll och rubyspråkets syntax. Vi introducerar även användarfokuserad synsätt för
+   programutveckling. Veckan avslutas med din första individuella Weekend Challenge.
 
 - title: Vecka 2
-  summary: Fördjupad TDD och OO i praktiken
-  blurb: "Vi inleder den andra veckan med att lägga grunden för ett onlinesystem som låter användarna beställa mat online (SlowFood challenge). Vi går även igenom mer avancerade Ruby-tekniker så som; lambdas, procs, composition, inheritance, iterators, recursion. Helgutmaningen handlar om att implementera dessa tekniker men även att använda en extern sms-tjänst genom api-anrop. Vi ger deltagarna en första inblick i hur man jobbar med agila utvecklingsmetoder och introducerar Scrum."
+  summary: Introduktion JavaScript
+  blurb: "Vi forsätter med att introducera ytterligare ett programmeringsspråk med tillhörande testverktyg - JavaScript. Samtidigt går vi igenom grunderna i HTML och CSS och bygger en applikation som räknar ut din Body Mass Index (BMI challenge). Vi introducerar även ett ramverk för webbaserade applikationer (Sinatra) och publicerar vår första app på internet."
+
 
 - title: Vecka 3
-  summary: Introduktion till html och JavaScript
-  blurb: "Vi forsätter med att introducera ytterligare ett programmeringsspråk med tillhörande testverktyg - JavaScript. Samtidigt går vi igenom grunderna i HTML och CSS och bygger en applikation som räknar ut din Body Mass Index (BMI challenge). Vi introducerar även ett ramverk för webbaserade applikationer (Sinatra) och publicerar vår första app på internet."
+  summary: Fördjupad TDD och OO i praktiken
+  blurb: "Vi inleder den andra veckan med att lägga grunden för ett onlinesystem som låter användarna beställa mat online (SlowFood challenge). Vi går även igenom mer avancerade Ruby-tekniker så som; lambdas, procs, composition, inheritance, iterators, recursion. Helgutmaningen handlar om att implementera dessa tekniker men även att använda en extern sms-tjänst genom api-anrop. Vi ger deltagarna en första inblick i hur man jobbar med agila utvecklingsmetoder och introducerar Scrum."
 
 - title: Vecka 4
   summary: Databaser och hantering av användare

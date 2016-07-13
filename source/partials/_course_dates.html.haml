@@ -1,23 +1,42 @@
+- language ||= :se
 %section.hero
   .container
     .row
-      %h2 Kursdatum
-      %h4.leader Distans eller On-site? Du bestämmer
-      %p.copy--left
-        %strong
-          Anmäl dig i tid - urvalsprocessen tar ca två veckor och du måste gå igenom en intervju innan du blir antagen. Antal utbildningsplatser är begränsat. Du kan ta del av Craft Academy på distans eller genom att närvara i någon av våra utbildningslokaler i Göteborg och Stockholm.
+      - if language == :se
+        %h2 Kursdatum
+        %h4.leader Distans eller On-site? Du bestämmer
+        %p.copy--left
+          %strong
+            Anmäl dig i tid - urvalsprocessen tar ca två veckor och du måste gå igenom en intervju innan du blir antagen. Antal utbildningsplatser är begränsat. Du kan ta del av Craft Academy på distans eller genom att närvara i någon av våra utbildningslokaler i Göteborg och Stockholm.
+      - else
+        %h2 Class schedule
     .centered-row
       %table.responsive-table
         %thead
           %tr
-            %th Förberedande kurs
-            %th Kursstart
-            %th Examen
-            %th Plats
+            - if language == :se
+              %th Förberedande kurs
+              %th Kursstart
+              %th Examen
+              %th Plats
+            - else
+              %th Prep-Course start
+              %th Course start
+              %th Graduation
+              %th Location
+
         %tbody
           - Intake.future_dates.each do |intake|
             %tr
-              %td{data:{header: 'Förberedande kurs'}}= intake.precourse_start_date.strftime('%-d %B %Y')
-              %td{data:{header: 'Kursstart'}}= intake.start_date.strftime('%-d %B %Y')
-              %td{data:{header: 'Examen'}}= intake.end_date.strftime('%-d %B %Y')
-              %td{data:{header: 'Plats'}}= intake.locations
+              - if language == :se
+                %td{data:{header: 'Förberedande kurs'}}= intake.precourse_start_date.strftime('%-d %B %Y')
+                %td
+                  %strong{data:{header: 'Kursstart'}}= intake.start_date.strftime('%-d %B %Y')
+                %td{data:{header: 'Examen'}}= intake.end_date.strftime('%-d %B %Y')
+                %td{data:{header: 'Plats'}}= intake.locations
+              -else
+                %td{data:{header: 'Prep-Course start'}}= intake.precourse_start_date.strftime('%-d %B %Y')
+                %td
+                  %strong{data:{header: 'Course start'}}= intake.start_date.strftime('%-d %B %Y')
+                %td{data:{header: 'Graduation'}}= intake.end_date.strftime('%-d %B %Y')
+                %td{data:{header: 'Location'}}= intake.locations

@@ -7,5 +7,17 @@
   locations: "Remote (with 2 week summer break)"
 
 - start_date: 8 August 2016
-  end_date: 31 Oct Juni 2016
+  end_date: 31 October 2016
+  locations: "Göteborg, Stockholm, Remote"
+
+- start_date: 3 October 2016
+  end_date:  20 January 2017
+  locations: "Göteborg, Stockholm, Remote (with 3 week Christmas break)"
+
+- start_date: 28 November 2016
+  end_date:  10 March 2017
+  locations: "Göteborg, Stockholm, Remote (with 3 week Christmas break)"
+
+- start_date: 6 February 2017
+  end_date:  28 April 2017
   locations: "Göteborg, Stockholm, Remote"

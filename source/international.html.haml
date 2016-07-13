@@ -98,16 +98,24 @@
           At the moment we have a special offering for EdX
           %span
             %a{href: 'https://www.edx.org/course/agile-development-using-ruby-rails-uc-berkeleyx-cs169-1x'}Agile Development Using Ruby on Rails
-          students and alumni:
+          students and alumni
+          %strong on the August or October cohort
+          (see Class Schedule below):
         %ul
-          %li £5700 (20% discount) for a on-site spot
-          %li £2600 (60% discount) for a remote spot
+          %li
+            %span
+              %strong £5700 (20% discount)
+            for a on-site spot
+          %li
+            %span
+              %strong £2600 (60% discount)
+            for a remote spot
         %p.copy--left
           Please
           %span
             %a{href: 'mailto:info@craftacademy.se'}send us an email
-          to enroll.
+          or use the form below to enroll.
           %span
             %strong The deadline for this discount offer is August 1st.
-
+= partial :'course_dates', locals: { language: 'en' }
 = partial :'apply', locals: { language: 'en' }
