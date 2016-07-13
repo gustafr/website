@@ -18,7 +18,7 @@
 
 
 //= require vendor/jquery
-//= require vendor/retina.min
+// require vendor/retina.min
 //= require vendor/slick.js
 //= require vendor/jquery.ajaxchimp
 //= require vendor/prism
