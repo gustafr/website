@@ -2,30 +2,29 @@
   summary: Allt du behöver inför kursstarten
   blurb: "Du måste få en solid kunskapsbas att stå på inför själva kursen. Därför inleder vi campet med en förberedande del på 4 veckor. Under den förberedande kursen arbetar du på distans i ett nära samarbete med din coach och i team med andra deltagare. Du deltar i en till två fjärrmöten dagligen och förväntas kunna ägna mellan 15 till 20 timmar per vecka med att gå igenom material, lösa uppgifter och delta i parprogrammering."
 
-- title: Vecka 1
-  summary: Testdriven utveckling och objektorienterad programmering
-  blurb: Första veckans utmaning handlar om att bygga en enkel Bankomatsimulator. Låter kanske trivialt men utmaningen ligger i
-   att förstå hur en vardaglig situation kan se ut när man tänker i programmeringstermer och hur olika objekt interagerar med varandra.
-   Under veckan introducerar vi en mängd nya begrepp och koncept som lägger grunden för din fortsatta utveckling. Vi praktiserar par programmering
-   och test driven utveckling. Vi tampas med versionskontroll och rubyspråkets syntax. Vi introducerar även användarfokuserad synsätt för
-   programutveckling. Veckan avslutas med din första individuella Weekend Challenge.
+- title: Week 1
+  summary: Test driven development and object oriented programming
+  blurb: The first week's challenge is to build a simple ATM Simulator. It may sound trivial, but the challenge is about understanding how an everyday
+   situation might look like when you think about it in terms of code and how different objects interact with each other.
+   During the week, we introduce a number of new terms and concepts that lay the foundation for your future development.
+   We practice pair programming and test driven development and we also struggle with version control and more advanced ruby syntax.
+   During this week we also introduce user-focused approach to program development.
+   The week ends with your first individual Weekend Challenge.
 
-- title: Vecka 2
-  summary: Introduktion till JavaScript
-  blurb: Vi forsätter med att introducera ytterligare ett programmeringsspråk med tillhörande testverktyg - JavaScript och Jasmine.
-   Samtidigt går vi igenom grunderna i HTML och CSS och bygger en applikation som räknar ut din Body Mass Index (BMI challenge)
-   och publicerar vår första app på internet.
+- title: Week 2
+  summary: Introduction to JavaScript
+  blurb: We continue to introduce yet another programming language and associated testing framework - JavaScript and Jasmine.
+   We also go through the basics of HTML and CSS and build an application that calculates your Body Mass Index (BMI Challenge) and deploy our first app on the Internet.
 
 
-- title: Vecka 3
-  summary: Parprogrammering och Användarorienterad utveckling
-  blurb: Vi inleder denna vecka med att lägga grunden för ett onlinesystem som låter användarna beställa mat online (SlowFood Challenge).
-   Vi introducerar ett ramverk för webbaserade applikationer (Sinatra) och ger deltagarna en första inblick i hur man jobbar med agila utvecklingsmetoder
-   med fokus på Behavior Driven Development.
-   SlowFood Challenge handlar även om designmönstret Model-View-Controller, relationsdatabaser och funktioner för användarregistrering, autentisering och auktorisering.
-   Vid veckans slut är vi redo att gå live med SlowFood Online och vi publicerar vårt system med hjälp av Heroku.
-   För att underlätta och automatisera vår deploy-process använder tekniker som Continuous Integration och Continuous Deployment."
-
+- title: Week 3
+  summary: Pair Programming and User-Driven Development
+  blurb: This week we begin to lay the foundation for an online system that allows users to order food online (Slow Food Challenge).
+    We introduce a framework for web based applications (Sinatra) and give participants an first insight into agile development
+    focusing on Behavior Driven Development.
+    Slow Food Challenge is also about begining to think in the Model-View-Controller design pattern, about relational and about features for user registration, authentication and authorization.
+    At the end of the week, we are ready to go live with the Slow Food Online application and we deploy our system using Heroku.
+    To facilitate and automate our deploy process we use techniques such as Continuous Integration and Continuous Deployment.
 
 - title: Vecka 4
   summary: Statiska siter och programmeringstekniker
