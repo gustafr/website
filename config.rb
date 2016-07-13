@@ -65,11 +65,11 @@ helpers CurrentPageHelper,
 
 helpers do
   def current_page_is_pretoria?
-    current_page.url.match(/pretoria/)
+    current_page.url.match(/pretoria|south-africa/)
   end
 
   def international_pages?
-    current_page.url.match(/international|pretoria/)
+    current_page.url.match(/international|pretoria|south-africa/)
   end
 end
 
