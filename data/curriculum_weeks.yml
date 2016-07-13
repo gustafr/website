@@ -12,40 +12,64 @@
 
 - title: Vecka 2
   summary: Introduktion JavaScript
-  blurb: "Vi forsätter med att introducera ytterligare ett programmeringsspråk med tillhörande testverktyg - JavaScript. Samtidigt går vi igenom grunderna i HTML och CSS och bygger en applikation som räknar ut din Body Mass Index (BMI challenge). Vi introducerar även ett ramverk för webbaserade applikationer (Sinatra) och publicerar vår första app på internet."
+  blurb: Vi forsätter med att introducera ytterligare ett programmeringsspråk med tillhörande testverktyg - JavaScript. Samtidigt går vi igenom grunderna i HTML och CSS och bygger en applikation som räknar ut din Body Mass Index (BMI challenge) och publicerar vår första app på internet.
 
 
 - title: Vecka 3
-  summary: Fördjupad TDD och OO i praktiken
-  blurb: "Vi inleder den andra veckan med att lägga grunden för ett onlinesystem som låter användarna beställa mat online (SlowFood challenge). Vi går även igenom mer avancerade Ruby-tekniker så som; lambdas, procs, composition, inheritance, iterators, recursion. Helgutmaningen handlar om att implementera dessa tekniker men även att använda en extern sms-tjänst genom api-anrop. Vi ger deltagarna en första inblick i hur man jobbar med agila utvecklingsmetoder och introducerar Scrum."
+  summary: Parprogrammering och Användarorienterad utveckling
+  blurb: Vi inleder den andra veckan med att lägga grunden för ett onlinesystem som låter användarna beställa mat online (SlowFood Challenge).
+   Vi introducerar ett ramverk för webbaserade applikationer (Sinatra) ger deltagarna en första inblick i hur man jobbar med agila utvecklingsmetoder
+   med fokus på Behavior Driven Development.
+   SlowFood Challenge handlar även om designmönstret Model-View-Controller, relationsdatabaser och funktioner för användarregistrering, autentisering och auktorisering.
+   Vid veckans slut är vi redo att gå live med SlowFood Online och vi publicerar vårt system med hjälp av Heroku.
+   För att underlätta och automatisera vår deploy-process använder tekniker som Continuous Integration och Continuous Deployment."
+
 
 - title: Vecka 4
-  summary: Databaser och hantering av användare
-  blurb: "Vi går tillbaka till vår SlowFood applikation och använder den utmaningen till att introducera relationsdatabaser och grundläggande kryptering som en del av veckoutmaningen (funktioner för användarregistrering, autentisering och auktorisering). Vi jobbar med Sinatra och introducerar designmönstret Model-View-Controller. Vid veckans slut är vi redo att gå live med SlowFood Online och vi publicerar vårt system med hjälp av Heroku. För att underlätta och automatisera vår deploy-process använder tekniker som Continuous Integration och Continuous Deployment."
+  summary: Statiska siter och programmeringstekniker
+  blurb: Under den här veckan bygger vi en personlig site (Portfolio Challenge) med ramverket Middleman. Vi introducerar även HAML - en HTML markup
+   som underlättar skapandet och underhållet av HTML kod.
+   Vi introducerar mer avancerade JavaScript-baserade ramverk (jQuery) och CSS ramverk (Foundation, Bootstrap) och visat hur vi kan förbättra användarupplevelsen i våra applikationer.
 
 - title: Vecka 5
-  summary: Front-end utveckling
-  blurb: "Vi introducerar mer avancerade JavaScript-baserade ramverk (jQuery) och CSS ramverk (Foundation, Bootstrap) och visat hur vi kan förbättra användarupplevelsen i våra applikationer. Vi fortsätter att utveckla SlowFood online med mer avancerade funktioner och introducerar oAuth autentisering (Facebook, Twitter, mm) men även hur man kan använda montjänster i sina system."
+  summary: Ruby on Rails
+  blurb: Den här veckan introducerar vi deltagarna till Ruby on Rails - ett ramverk som hjälper programmeraren att följa designmönstret Model-View-Controller (MVC) och lär dem att jobba
+   efter grundprinciperna Convention Over Configuration (Konvention före konfiguration) och Don't Repeat Yourself (DRY) som går ut på att motverka duplicering av kod.
+   Vi introducerar också mer omfattande teststrategier och befäster deltagarnas kunskaper för hur de använder tester i sin utvecklingsprocess.
+   Vi forsätter med att fördjupa oss i Rails och går igenom mer avancerade tekniker för hur man använder externa bibliotek (gems), API'er, websockets, mm. "
+
 
 - title: Vecka 6
-  summary: Lab Week
-  blurb: "Halvvägs genom campet är det tid för deltagarna att sätta sina kunskaper i praktiken och släppa taget om coachens trygga vägledning. Det är dags att jobba med ett eget projekt. Syftet är självklart att konsolidera sina kunskaper och börja bygga upp en egen projektportfölj. Under veckan håller vi även föreläsningar och arbetspass i Kanban."
-
-- title: Vecka 7 - 8
-  summary: Ruby on Rails
-  blurb: "Den här veckan introducerar vi deltagarna till Ruby on Rails - ett ramverk som hjälper programmeraren att följa designmönstret Model-View-Controller (MVC) och lär dem att jobba efter grundprinciperna Convention Over Configuration (Konvention före konfiguration) och Don't Repeat Yourself (DRY) som går ut på att motverka duplicering av kod. Vi introducerar också mer omfattande teststrategier och befäster deltagarnas kunskaper för hur de använder tester i sin utvecklingsprocess. Vi forsätter med att fördjupa oss i Rails och går igenom mer avancerade tekniker för hur man använder externa bibliotek (gems), API'er, websockets, mm. "
+  summary: Mid Course Project
+  blurb: Halvvägs genom campet är det tid för deltagarna att sätta sina kunskaper i praktiken och släppa taget om coachens trygga vägledning.
+   Det är dags att jobba med ett eget projekt. Syftet är självklart att konsolidera sina kunskaper och börja bygga upp en egen projektportfölj.
+   Under veckan håller vi även föreläsningar och arbetspass i Kanban.
 
 
-- title: Vecka 9
+- title: Vecka 7 & 8
   summary: Mobila applikationer
-  blurb: "Den här veckan fördjupar vi deltagarnas kunskaper inom JavaScript genom att introducera Angular.js, ett populärt front-end ramverk, och Node.js som är ett JavaScript ramverk för back-end. Vi tittar även på Ionic som är ett ramverk för utveckling av mobila applikationer (hybridappar för både Android och iOS). Veckoutmaningen är att koppla ihop SlowFood Online API'n med en mobil applikation och låta användare göra beställningar med sin smartphone"
+  blurb: Den här veckan fördjupar vi deltagarnas kunskaper inom JavaScript genom att introducera AngularJS, ett populärt front-end ramverk.
+   Vi tittar även på Ionic som är ett ramverk för utveckling av mobila applikationer (hybridappar för både Android och iOS).
+   Veckoutmaningen är att koppla ihop SlowFood Online API'n med en mobil applikation och låta användare göra beställningar med sin smartphone.
 
-- title: Vecka 10 & 11
+- title: Vecka 9 & 10
+  summary: Avancerad Rails, API'er och Agila utvecklingsmetoder
+  blurb: Allt handlar om att plocka på sig erfarenhet och kompetens (som vi definierar kunskap omsatt i praktik).
+   Under två veckor bygger vi en avancerad marketplace-applikation som en fortsättning på vår SlowFood utmaning.
+   Vi fördjupar oss i konceptet med API'r som hjälper oss att öppna upp vårt system för andra utvecklare, jobbar med mer avancerade planeringsverktyg,
+   följer de agila arbetsmetoderna och sjösäter en fullvärdig lösning.
+
+- title: Vecka 11 & 12
   summary: Slutprojekt
-  blurb: "Vid det här läget är deltagarna mer eller mindre självgående och det är åter igen dags att omsätta förgående veckors kunskaper i praktisk tillämpning. Deras produktportfölj kommer att utökas med ytterligare en applikation. I grupper om tre till fyra jobbar de fram en så kallad minimum viable product (MVP) som de sätter i produktion på en egen virtuell server (Digital Ocean)."
+  blurb: Vid det här läget är deltagarna mer eller mindre självgående och det är åter igen dags att omsätta förgående veckors kunskaper i praktisk tillämpning.
+   Deras produktportfölj kommer att utökas med ytterligare en applikation.
+   I grupper om tre till fyra jobbar de fram en så kallad minimum viable product (MVP) som de sätter i produktion på en egen virtuell server (Digital Ocean).
+   På onsdagen håller vi i vår Karriärdag och på fredagen är det examination och Demodag. Det är mycket som ska klaffa och det finns många anledningar att fira.
+
 
 - title: Vecka 12
-  summary: Karriärvecka
-  blurb: "Den här veckan används till att finslipa sina slutprojekt och förbereda sig för sin karriär som utvecklare. Det är mycket som händer den sista veckan på kursen. På onsdagen håller vi i vår Karriärdag och på fredagen är det examination och Demodag. Det är mycket som ska klaffa och det finns många anledningar att fira."
+  summary: Wrap up
+  blurb: Den här veckan används till att finslipa sina slutprojekt, göra klart evenuella utmaningar som man inte hann med under kursen och förbereda sig för sin karriär som utvecklare.
+   På onsdagen håller vi i vår Karriärdag och på fredagen är det examination och Demodag. Det är mycket som ska klaffa och det finns många anledningar att fira.
 
 
