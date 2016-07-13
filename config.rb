@@ -103,6 +103,7 @@ redirect 'payments/new.html', to: "#{config.apply_form_url}"
 redirect 'apply.html', to: config.apply_form_url
 redirect 'apply-for-ronin.html', to: "#{config.apply_form_url}"
 redirect 'blog.html', to: 'https://blog.craftacademy.se'
+redirect 'pretoria.html', to: 'south-africa.html'
 
 
 activate :deploy do |deploy|
