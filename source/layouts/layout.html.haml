@@ -22,11 +22,11 @@
 
     = partial :'social_media_meta'
 
-    -unless current_page_is_pretoria?
+    -unless current_page_is_sa?
       = partial :'analytics_scripts'
 
   %body{class: page_classes}
-    - if current_page_is_pretoria?
+    - if current_page_is_sa?
       = partial :'google_tag_manager_sa'
 
     = partial :'deprecated_browser_warning'
@@ -40,7 +40,7 @@
 
     - if international_pages?
       = javascript_include_tag 'doorbell_sa'
-    - elsif current_page_is_pretoria?
+    - elsif current_page_is_sa?
       = javascript_include_tag 'mailchimp_sa'
     - else
       = javascript_include_tag 'doorbell'

@@ -64,7 +64,7 @@ helpers CurrentPageHelper,
         StatsHelper
 
 helpers do
-  def current_page_is_pretoria?
+  def current_page_is_sa?
     current_page.url.match(/pretoria|south-africa/)
   end
 
@@ -99,9 +99,9 @@ ignore 'not_in_use/*'
 ignore 'case-studies/*' #as long as we don't present students
 
 # Redirects from old site urls
-redirect 'payments/new.html', to: "#{config.apply_form_url}"
+redirect 'payments/new.html', to: config.apply_form_url
 redirect 'apply.html', to: config.apply_form_url
-redirect 'apply-for-ronin.html', to: "#{config.apply_form_url}"
+redirect 'apply-for-ronin.html', to: config.apply_form_url
 redirect 'blog.html', to: 'https://blog.craftacademy.se'
 redirect 'pretoria.html', to: 'south-africa.html'
 

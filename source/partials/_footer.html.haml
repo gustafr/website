@@ -1,7 +1,7 @@
 %footer{role: 'contentinfo'}
   .container
     .footer-links
-      - if current_page.url == '/pretoria/'
+      - if current_page_is_sa?
         %ul.column
           %li
             %h3 Social media
@@ -85,7 +85,7 @@
         = image_tag 'logo/graphic_only_logo_white.png', class: 'logo'
     .footer-copyright
       %p
-        - if current_page.url == '/pretoria/'
+        - if current_page_is_sa?
           %small
             = "Craft Academy is a service provided by ThinkBots Pty Ltd. &copy; #{Time.now.year}"
         - else
