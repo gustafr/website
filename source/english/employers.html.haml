@@ -52,71 +52,48 @@
             %td
               %h4 Ruby on Rails
               %p.copy--left
-                Presentera företaget och människorna som jobbar i organisationen. Berätta om er verksamhet och vad ni jobbar med. Ge deltagarna tillfälle att bekanta sig med er.
-            %td
-              %h4 Ruby on Rails
+                Our students focus on building web applications with advanced technologies, creating polished products that could be used in the real world.
               %p.copy--left
-                Presentera företaget och människorna som jobbar i organisationen. Berätta om er verksamhet och vad ni jobbar med. Ge deltagarna tillfälle att bekanta sig med er.
+                %strong Example:
+                Slow Food Online, a web application where users can order food from various menus, selecting dishes, adding them to their cart, and finally checking out. Restaurant owners set up and organize their online store.
+              %p.copy--left
+                %strong Technologies:
+                Ruby on Rails, Stripe, Devise, etc. etc.
+                // I haven't done this assignment yet, so obviously I can't write copy for it.
+            %td
+              %h4 Soft Skills
+              %p.copy--left
+                Craft Academy students, from day one, are pushed not just to write great code, but to act like professionals in a work environment. They must meet deadlines, work in teams, pair program, lead and participate in Scrum meetings and tackle big projects with their colleagues. Unlike many other educational settings, our students graduate with a strong sense of what it is like to operate in a technical workplace and they will be an invaluable team member from their first day.
             %td
               %h4 Test- and Behavior-Driven Development
               %p.copy--left
-                Presentera företaget och människorna som jobbar i organisationen. Berätta om er verksamhet och vad ni jobbar med. Ge deltagarna tillfälle att bekanta sig med er.
+                One of the most important skills we teach our students is to test first and write code after. We drill into our students the importance of writing great tests and maintaining their test base as they proceed through a project. As the bootcamp proceeds, they learn the great value of having tests they can trust. This background makes them uniquely qualified to join teams who follow similar practices.
           %tr
             %td
-              %h4 Vara värd för en 'Craft Workshop'
+              %h4 Agile Practices
               %p.copy--left
-                Presentera egna problemställningar och utmana studenterna att komma upp med lösningar. Ett bra sätt att få reda på kunskapsnivå och lära känna deltagarnas kreativa sidor.
-            %td 1 dag
-            %td 1 gng per grupp/cohort
-          %tr
+                When they graduate, Craft Academy students are ready to tackle big projects - but know how to do the right thing at the right time. We practice with user stories, agile planning tools like Pivotal Tracker and team organization with Scrum meetings and Stand-Ups. Students spend their time at Craft Academy aware that they are making software for a "client" and are trained to accept changing requirements as their products develop.
             %td
-              %h4 Delta på demodag
+              %h4 Git and GitHub
               %p.copy--left
-                I samband med avslutningen anordnar vi en demo dag där deltagarna visar upp sina slutprojekt. Efteråt umgås vi och minglar. Det är en stor dag för deltagarna som markerar slutet på en resa och början på en ny. Var med på den och ge dem din feedback och stöd.
-            %td 2 timmar
-            %td Var 8:de vecka
-          %tr
+                Employees who do not have a strong command of Git practices can quickly bog down a team. That's why we focus on perfecting our students' Git and GitHub skills. Every single day we are critiquing their practice, nudging them towards the highest professional level of version control and collaboration.
             %td
-              %h4 Pitcha på karriärdagen
+              %h4 Other Skills
               %p.copy--left
-                Varannan månad anordnar vi en karriärdag där våra Hiring Partners kan presentera sina företag. Karriärdagen vänder sig till både nuvarande som potentiell framtida deltagare på Craft Academy.
-            %td 2 timmar
-            %td Var 8:de vecka
-          %tr
-            %td
-              %h4 Umgås med deltagare
-              %p.copy--left
-                Det bästa sättet att lära känna någon är att umgås med personen i en avslappnad och informell miljö. Varannan onsdag anordnar vi en After Work i våra lokaler eller på en pub/bar dit alla Hiring Parners är välkomna.
-            %td 45 - 60 minuter
-            %td Varannan onsdag
-          %tr
-            %td
-              %h4 Publicera dina jobberbjudanden
-              %p.copy--left
-                Vi har en job board där vi presenterar våra Hiring Partners och deras aktuella rekryteringar där ni kan publicera information allt efterssom era behov förändras.
-            %td Ingen
-            %td Utan begränsning
+                By the time they graduate from Craft Academy, students will significant experience with:
+                %ul{style:"text-align: left"}
+                  %li Ruby and Rails
+                  %li Javascript, AngularJS and the Ionic mobile platform
+                  %li Lots of other stuff - make this list impressive
+                // What should go here is a kitchen-sink list of all the stuff you teach us. This is our huge impressive list of things students learn to work with.
 
-%section
-  .container
-    %h2.alt-color Inga förbindelser
-    %h4.subheader Vi tar betalt först när du hittar någon som passar och skriver ett ansällningsavtal
-
-    .two-width-row
-      .column.vertical-center
-        %h4.leader Vårt arvode
-        %h4.leader vid rekrytering
-        %h1.statistic 20%
-        %h4.subheader av första årets lönekostnad
-        .button-row
-          =link_to 'Kontakta mig', 'http://doodle.com/makers_thomas', class: 'button button--horizontal'
-      .column
-        .copy.copy--left
-          %p
-            Till skillnad från andra utbildningsanordnare tar vi ut ett arvode när du rekryterar någon av våra deltagare.
-            Vi gör det först när ni faktiskt hittar någon som du tror kan passa i ditt team och skapa mervärden för din organisation.
-          %p
-            Vårt arvode är också något större än vad vissa rekryteringsfirmor tar ut.
-            Det beror på att vi erbjuder större mervärden som gör er rekryteringsprocess säkrare.
-            Vi känner våra deltagare väl och förutom att vi har koll på deras tekniska kompetens, vet vi även hur de fungerar i att jobba i grupp,
-            hur de hanterar stress och hur de jobbar med att lösa problem.
+  %section.hero
+    .container
+      .centered-row
+        .column
+          %h4 Are you looking for great junior developers?
+          %h2 Become a Hiring Partner
+      .button-row
+        %p
+          // I've left this link to the information page, but it should just be an email link. Make it as easy as possible for people to contact you. With businesses, you definitely want to be talking to them immediately - personally, on the phone. Take this button away and just put your email and phone number.
+          = link_to 'Contact Us', config.hire_form_url, class: 'button button--vertical button--large', target: '_blank'
