@@ -5,20 +5,34 @@
       %h1 Priser
       %p
         %strong
-          Samtidigt som vi är ett vinstdrivande företag, vill vi inte att priset ska utgöra ett hinder för någon att vara med på Craft Academy Bootcamp.
-          Vi erbjuder olika typer av finansieringsalternativ och betallösningar för både privatpersoner och företag.
-%section.backgrounded
+          I Sverige är vi vana att betrakta utbildning som gratis. Men det är en sanning med modifikation. Den traditionella utbildningen är lång och lämnar ofta efter sig stora studieskulder på hundratusentals kronor. Craft Academy är ett alternativ som kan bespara dig både tid och pengar. Till skillnad från de flesta andra utbildningar hjälper vi dig även med coachning och kontakter när du ska söka ditt första jobb.
+
+%section.hero-splash-white{style: "background-image: url(#{image_path('photos/office-1209640-fade.jpg')});"}
+  .container
+  .container
+    .centered-row
+      %h4.leader Skaffa dig ett försprång
+      %h2 3 skäl att välja Craft Academy
+    .three-width-row
+      .column
+        %h3.copy Snabbt
+        %p.copy Arbetsmarknaden skriker efter juniora utvecklare. Vi gör dig anställningsbar på bara 12 veckor. Dessutom får du coachning och kontakter när det är dags att söka ditt första jobb.
+      .column
+        %h3.copy Relevant
+        %p.copy Vår läroplan är utvecklad av yrkesverksamma mjukvaruingenjörer. Vi ser till att du lär dig rätt saker och får kompetens inom de områden som efterfrågas av arbetsgivarna.
+      .column
+        %h3.copy Frihet
+        %p.copy  Craft Academy bootcamp öppnar dörrar och ökar dina möjligheter att få ett intressant och utmanande arbete, oavsett var i världen du beger dig.
+
+%section.hero-splash
   .container
     .centered-row
       %h4.leader Craft Academy
       %h2 Kursavgift
       %h4
         Grundpriset för Craft Academy Bootcamp är 84 000 SEK.
-      %p.copy--left
-        Craft Academy är en renodlad uppdragsutbildning och vi är inte affilierade med någon statlig eller kommunal organisation eller myndighet.
-        Kursavgiften är satt att täcka våra kostnader för lokaler, instruktörer, externa föreläsare, utrustning, mm.
-      %p.copy--left
-        Våra kurser berättigar inte till CSN stöd. Se nedan för möjligheter till rabatter och tillgängliga finansieringsalternativ.
+      %p.copy
+        Se nedan för tillgängliga finansieringsalternativ.
     .three-width-row
       .column
         %h3.copy--left Boka tidigt-rabatt
@@ -26,37 +40,73 @@
       .column
         %h3.copy--left Kvinnliga sökande
         %p.copy--left Vi erbjuder <strong>8 400 kr</strong> rabatt till kvinnliga sökande eftersom kvinnor är mycket underrepresenterade i IT-branschen.
+    .centered-row
+      %h4.leader
+        Nästa kursstart:
+        = Intake.future_dates.first.start_date.strftime('%-d %b %Y')
+      %h4
+        Antalet platser är begränsat.
+      = link_to 'Ansök nu', config.apply_form_url, class: 'button button--vertical button--large'
 
-
-%section
+%section.hero-splash-white
   .container
     .centered-row
-      %h2 Avbetalning
-      %p.copy--left
-        Om du känner att du vill vara med och delta på vår utbildning men inte riktigt har råd att
-        betala hela kursavgiften på en gång - är du välkommen att höra av dig till oss så försöker vi hitta en lösning.
-        Du kan ansöka om att få lägga upp en avbetalningsplan för kursavgiften.
-    .two-width-row
-      .column
-        = image_tag 'logo/pragmatic_sweden_color.png', class: 'image--medium'
-        %h4 Pragmatic Sweden AB
-        .button-row
-          %p.copy--left
-            Pragmatic Sweden AB är företaget som driver Craft Academy. Vi erbjuder en egen avbetalningsplan som ger dig möjlighet av avbetala kursavgiften på 6 räntefria månadsbetalningar. Kontakta oss för mer information och om andra tillgängliga finansieringsalternativ.
-          %p.copy--left
-            Första delbetalningen erläggs vid anmälan och avser en registreringsavgift på 8 400 SEK (motsvarande 10% av kursavgiften), delbetalning på 12 600 SEK samt en administrativ avgift på 495 SEK, totalt 21 495 SEK.
-            De nästföljande 5 månadsbetalningarna avser delbetalning på 12 600 SEK och administrativ avgift på 495 SEK, totalt 13 095 SEK.
-            %strong Det totala priset för kursen (exkl den förberedande delen) blir 86 970 SEK.
-            Alla priser inkluderar moms.
+      %h2 Finansiering
+      %p.copy
+        Craft Academy bootcamp är en privat utbildningsform och berättigar således inte till CSN-stöd. Du kan välja att betala utbildningen enligt vår standardmodell eller ansöka om delbetalning.
+      %h3 Standardbetalning
+      %table.responsive-table
+        %thead.backgrounded
+          %tr
+            %th Vid antagning
+            %th Vid kursstart
+            %th Pris inkl. moms
 
-      .column
-        = image_tag 'logo/human_finans.jpg', class: 'image--medium'
-        %h4 Human Finans
-        %p.copy--left
-          I samarbete med Human Finans kan vi erbjuda  erbjuda olika alternativ till delbetalning av våra utbildningar.
-        %p.copy--left
-          Du kan t.ex. låna räntefritt till din utbildning och dela upp din betalning i 12 månader.
-%hr
+        %tbody
+          %tr
+            %td{data:{header: "Vid antagning"}} 8 400 SEK, (anmälningsavgift)
+            %td{data:{header: "Vid kursstart"}} 75 600 SEK
+            %td{data:{header: "Summa"}}
+              %strong
+                84 000 SEK
+    .centered-row
+      %h3 Boka Tidigt-rabatt
+      %table.responsive-table
+        %thead.backgrounded
+          %tr
+            %th Vid antagning
+            %th Vid kursstart
+            %th Rabatt
+            %th Pris inkl. moms
+        %tbody
+          %tr
+            %td{data:{header: "Vid antagning"}} 8 400 SEK, (anmälningsavgift)
+            %td{data:{header: "Vid kursstart"}} 67 200 SEK, (senast 1 mån innan)
+            %td{data:{header: "Rabatt"}} 10 %
+            %td{data:{header: "Summa"}}
+              %strong
+                75 600 SEK
+    .centered-row
+      %h3 Räntefri Delbetalning *
+      %table.responsive-table
+        %thead.backgrounded
+          %tr
+            %th Vid antagning
+            %th Vid kursstart
+            %th Avbetalning 24 mån
+            %th Pris inkl. moms
+        %tbody
+          %tr
+            %td{data:{header: "Vid antagning"}} 8 400 SEK, (anmälningsavgift)
+            %td{data:{header: "Vid kursstart"}} 25 600 SEK
+            %td{data:{header: "Avbetalning 24 mån"}} 2 112 SEK / mån inkl. 29kr aviagift
+            %td{data:{header: "Summa"}}
+              %strong
+                85 575 SEK
+      %small * Räntefri delbetalning erbjuds i samarbete med Human Finans. Uppläggningsavgift på 495 kr tillkommer på första avin. Sedvanlig kreditkontroll kommer att genomföras.
+
+= partial :'what_you_get', locals: {page: :payment}
+
 %section
   .container
     .centered-row
