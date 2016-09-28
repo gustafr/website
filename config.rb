@@ -95,8 +95,8 @@ set :class_site_url, 'http://class.craftacademy.se'
 
 # Ignore folders with unused templates
 ignore 'elements/*'
-ignore 'not_in_use/*'
-ignore 'case-studies/*' #as long as we don't present students
+#ignore 'not_in_use/*'
+#ignore 'case-studies/*' #as long as we don't present students
 
 # Redirects from old site urls
 redirect 'payments/new.html', to: config.apply_form_url

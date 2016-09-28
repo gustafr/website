@@ -1,5 +1,5 @@
 module ImageHelper
-  CDN_URL = '//assets.craftacademy.se'
+  CDN_URL = ''
 
   def image_path(path)
     "#{CDN_URL}/images/#{path}"

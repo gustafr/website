@@ -2,18 +2,19 @@
 %section.hero-splash{style: "background-image: url(#{image_path('backgrounds/splash_1.jpg')});"}
   .container
     .centered-row
-      %h4.leader Är du redo att utmana dig själv?
+      %h4.leader Ta kontroll över framtiden.
       %h1
-        = 'Programmering som ett hantverk<br>på 12 veckor'.html_safe
+        = 'Lär dig koda på 12 veckor'.html_safe
       %p
         %strong
-          Med Craft Academy lär du dig webbprogrammering och får hjälp med att skaffa ditt första jobb eller bygga ditt projekt.
-      %h4.leader Bli en av oss - lär dig ett nytt hantverk!
+          Craft Academy är Sveriges ledande bootcamp inom webbutveckling. Med vår hjälp får du en snabb och effektiv väg in till ett spännande yrke.
+      %h4.leader Nästa kursstart: 28 November 2016
     = partial :'email-capture'
-
-= partial :'who_is_it_for'
+= partial :'startpage/become_the_solution'
+= partial :'startpage/students_payoff'
+= partial :'startpage/study_payoff'
 = partial :'course_dates'
-= partial :lms
+= partial :'what_you_get'
 = partial :'apply'
 
 %section

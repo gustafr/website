@@ -11,6 +11,19 @@
   }
 }
 
+.hero-white {
+  @extend .backgrounded-white;
+  display: table;
+  text-align: center;
+  width: 100%;
+  @include media($desktop) {
+    p {
+      font-size: modular-scale(1);
+      line-height: 1.25 * $base-line-height;
+    }
+  }
+}
+
 .hero-splash {
   @extend .hero;
   padding-left: 0;
@@ -40,5 +53,15 @@
   @include media($desktop) {
     padding: $section-spacing $base-spacing;
     min-height: 61.8vh;
+  }
+}
+
+.hero-splash-white {
+  @extend .hero-white;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: ma-spacing(3);
+  @include media($desktop) {
+    padding: ma-spacing(5) 0;
   }
 }

@@ -1,0 +1,118 @@
+- page ||= :default
+
+%section.hero-splash-white{style: "background-image: url(#{image_path('photos/startup-2-fade.jpg')});"}
+  .container
+    .centered-row
+      %article
+        %h4.leader Bli en del av oss
+        %h2 Allt detta ingår
+        %ul
+          %li
+            %h5
+              Förberedande kurs med stöd av coach.
+          %li
+            %h5
+              12 veckors utmaningsbaserad utbildning på heltid.
+          %li
+            %h5
+              Erfarna coacher på plats och på distans.
+          %li
+            %h5
+              Lån av MacBook Pro som studiedator.
+          %li
+            %h5
+              Lär dig efterfrågade utvecklingsmetoder som Agile och TDD.
+          %li
+            %h5
+              Moderna ramverk inkl. HTML5, JavaScript, Ruby on Rails, Angular JS och Ionic.
+          %li
+            %h5
+              Kreativ miljö på Chalmers Innovation, en av Sveriges ledande startup-hubbar.
+          %li
+            %h5
+              Föreläsningar, nätverksträffar och meetups.
+          %li
+            %h5
+              Kaffe, onsdagsfrukost och torsdagsfika.
+
+          %li
+            %h5
+              Hjälp med att söka jobb via vårt kontaktnät.
+        - unless page == :payment
+          = link_to 'Betalningsplaner', '/payment', locals: {page: :payment}, class: 'button button--vertical'
+
+
+%section.hero-splash-white
+  .container
+    .centered-row
+      %h4.leader Bli en del av oss
+      %h2 Allt detta ingår
+      %table.responsive-table
+        %thead.backgrounded
+          %tr
+            %th
+            %th On-site
+            %th Distans
+
+        %tbody.copy--left
+          %tr
+            %td{data:{header: "Typ"}} Studieplats
+            %td{data:{header: "On site"}} Chalmers, Göteborg
+            %td{data:{header: "Distans"}} Valfritt
+          %tr
+            %td{data:{header: "Typ"}} Förberedande kurs
+            %td{data:{header: "On site"}} 4 veckor, halvtid
+            %td{data:{header: "Distans"}} 4 veckor, halvtid
+          %tr
+            %td{data:{header: "Typ"}} Studietid
+            %td{data:{header: "On site"}} 12 veckor, heltid
+            %td{data:{header: "Distans"}} 12 veckor, heltid
+          %tr
+            %td{data:{header: "Typ"}} Professionella coacher
+            %td{data:{header: "On site"}} Ja, på plats
+            %td{data:{header: "Distans"}} Ja, videokonferens
+          %tr
+            %td{data:{header: "Typ"}} Läroplan
+            %td{data:{header: "On site"}} Utmaningsbaserad, av Craft Academy
+            %td{data:{header: "Distans"}} Utmaningsbaserad, av Craft Academy
+          %tr
+            %td{data:{header: "Typ"}} Studiedator
+            %td{data:{header: "On site"}} MacBook Pro
+            %td{data:{header: "Distans"}} -
+          %tr
+            %td{data:{header: "Typ"}} Onsdagsfrukost
+            %td{data:{header: "On site"}} Ja
+            %td{data:{header: "Distans"}} -
+          %tr
+            %td{data:{header: "Typ"}} Karriärplanering
+            %td{data:{header: "On site"}} Ja, vi vårt kontaktnät
+            %td{data:{header: "Distans"}} -
+
+%section.hero-splash-white{style: "background-image: url(#{image_path('photos/startup-2-fade.jpg')});"}
+  .container
+    .centered-row
+      %article
+        %h4.leader Bli en del av oss
+        %h2 Allt detta ingår
+        %p.copy--left
+          Förberedande kurs med stöd av coach.
+        %p.copy--left
+          12 veckors utmaningsbaserad utbildning på heltid.
+        %p.copy--left
+          Erfarna coacher på plats och på distans.
+        %p.copy--left
+          Lån av MacBook Pro som studiedator.
+        %p.copy--left
+          Lär dig efterfrågade utvecklingsmetoder som Agile och TDD.
+        %p.copy--left
+          Moderna ramverk inkl. HTML5, JavaScript, Ruby on Rails, Angular JS och Ionic.
+        %p.copy--left
+          Kreativ miljö på Chalmers Innovation, en av Sveriges ledande startup-hubbar.
+        %p.copy--left
+          Föreläsningar, nätverksträffar och meetups.
+        %p.copy--left
+          Kaffe, onsdagsfrukost och torsdagsfika.
+        %p.copy--left
+          Hjälp med att söka jobb via vårt kontaktnät.
+        - unless page == :payment
+          = link_to 'Betalningsplaner', '/payment', locals: {page: :payment}, class: 'button button--vertical'

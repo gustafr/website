@@ -1,0 +1,37 @@
+/ Case Study Template
+
+%section.no-padding-bottom
+  .container
+    .profile-row
+      .image.show-desktop
+        %img{src: 'http://s3.amazonaws.com/evancarmichael/pictures/Authors/8131/Bo-Mattsson-portrait.jpg', width: '200px'}
+      .copy
+        %h4.leader Case Study
+        %h1= "Bo Mattsson"
+        %h4.subheader= "Från sofflocket till rymdforskare på NASA"
+        %blockquote= "ÄT, SOV, SKIT KOD!"
+        .image.hide-desktop.no-padding
+          %img{src: 'http://s3.amazonaws.com/evancarmichael/pictures/Authors/8131/Bo-Mattsson-portrait.jpg', width: '200px'}
+%hr
+
+%section.no-padding-top
+  .article--centered
+    %article
+      %dl
+        %dt= "Hej Bo, kan du berätta lite om vem du är och vad du jobbat med tidigare?"
+        %dd= "Jag heter Bo Mattsson, är 55 år gammal, gift med Eva sedan Hedenhös och vi har tre vuxna barn tillsammans. Jag jobbade i finanssvängen fram till 1997 (ansvarig för Swedbank Securities och var bl a där pappa till Europas första internetlösning för aktiehandel, NetTrade), och blev därefter entreprenör och har idag tre företag som jag grundat eller medgrundat, och som vi sedermera har sålt (Eurotrade, Mangold, samt Cint), där Cint såldes så sent som i december i fjol till Nordic Capital."
+        %dt= "Under hösten 2016 deltog du i ett av de första bootcamps som Craft Academy anordnade, vad fick dig att bestämma dig för att lära dig att koda?"
+        %dd= "Dels så gillar jag att lära mig nya saker, per definition (även om jag fuskat litet under 1970-talet med kodning), och dels så tror jag att det är nyttigt att åtminstone ha ett hum om hur kommunikationen på nätet faktiskt fungerar, oavsett device. Det har jag nytta av i den egna verksamheten och dessutom så blir jag nyttigare för andra i samband med investeringar etc."
+        %dt= "Vad skulle du säga var det viktigaste effekten av att du deltog på Craft Academy?"
+        %dd= "Jag har klart lättare att förstå hur något är byggt och vilka problemställningar de har ställts inför, att se koden gör det också lättare för mig att värdera de människor som påstår något om något."
+        %dt= "Vad var det som var mest utmanande med den utbildningsmodell som Craft Academy jobbar efter?"
+        %dd= "Är man inte beredd att lägga all tid på kodning medan man går kursen, så bör man nog fundera en gång till."
+        %dt= "Efter att först ha varit deltagare, gick du sen in som investerare i företaget bakom Craft Academy. Vad fick dig att ta det beslutet?"
+        %dd= "Jag tror, rimligen, att alla har nytta av det här, ungefär på samma sätt som att man har nytta av att kunna läsa och skriva. Du skjuter dig själv i foten om du inte åtminstone har en viss förståelse för hur vi idag kommunicerar."
+        %dt= "Vilket råd skulle du ge någon som funderar på att vara med på en Bootcamp?"
+        %dd= "Enkelt. Lägg all tid och all fokus på detta under den tid det varar. Ät, sov, skit kod, helt sonika. Fråga mycket, se till att du förstår innan du släpper greppet och går vidare. Se dock till att aldrig ställa samma fråga två gånger av ren slöhet (finns inget som retar en lärare så mycket som slöa elever...)."
+    .button-row
+      = link_to 'Tillbaka', "/students", class: "button button--horizontal"
+
+= partial :'apply'
+
