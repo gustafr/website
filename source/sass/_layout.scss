@@ -26,6 +26,13 @@ section {
   }
 }
 
+.backgrounded-white {
+  background-color: $white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 hr {
   border-bottom: $base-border;
   border-left: none;
