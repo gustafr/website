@@ -8,8 +8,10 @@
       %p
         %strong
           Craft Academy är Sveriges ledande bootcamp inom webbutveckling. Med vår hjälp får du en snabb och effektiv väg in till ett spännande yrke.
-      %h4.leader Nästa kursstart:
-      = Intake.future_dates.first.start_date.strftime('%-d %b %Y')
+    .centered-row
+      %h4.leader
+        Nästa kursstart:
+        = Intake.future_dates.first.start_date.strftime('%-d %b %Y')
 
 %section.hero-splash-white{style: "background-image: url(#{image_path('backgrounds/startup-fade.jpg')});"}
   .container
