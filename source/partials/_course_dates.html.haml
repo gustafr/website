@@ -1,5 +1,5 @@
 - language ||= :se
-%section.hero
+%section{class: language == :se ? 'hero' : ''}
   .container
     .row
       - if language == :se
@@ -9,7 +9,10 @@
           %strong
             Anmäl dig i tid - urvalsprocessen tar ca två veckor och du måste gå igenom en intervju innan du blir antagen. Antal utbildningsplatser är begränsat. Du kan ta del av Craft Academy på distans eller genom att närvara i någon av våra utbildningslokaler i Göteborg och Stockholm.
       - else
-        %h2 Class schedule
+        %h2 Course Dates
+        %p.copy--left
+          %strong
+            Apply in time - the selection process takes approximately two weeks and we will interview you before you are accepted. There are at most ten spots in each cohort.
     .centered-row
       %table.responsive-table
         %thead
