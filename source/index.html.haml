@@ -39,9 +39,18 @@
       .image.hide-desktop.no-padding
         %img{src: '/images/portraits/Lucia-400.png'}
 
-= partial :'who_is_it_for'
+%section.hero-splash-white{style: "background-image: url(#{image_path('backgrounds/ipad-fade.jpg')});"}
+  .container
+    .centered-row
+      %article
+        %h4.leader Praktik framför teori
+        %h2 Vår unika läroplan
+        %p.copy
+          Vi tror att traditionell utbildning lär människor att klara prov, snarare än att ge dem verklig kunskap. Vi har skapat en intensiv och praktiskt inriktad utbildning som gör dig anställningsbar på bara 12 veckor.
+        = link_to 'Vår läroplan', '/curriculum.html', class: 'button button--vertical'
+
 = partial :'course_dates'
-= partial :lms
+= partial :'what_you_get'
 = partial :'apply'
 
 %section
