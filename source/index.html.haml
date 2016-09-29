@@ -23,6 +23,22 @@
           Arbetsgivare runt om i landet söker med ljus och lykta efter juniora systemutvecklare. Med vår hjälp får du under tre månader lära dig många av de färdigheter som efterfrågas allra mest. Vi hjälper dig också att hitta ditt första jobb.
         = link_to 'Läs mer', '/students', class: 'button button--vertical'
 
+%section.hero-splash-white
+  .container
+    .profile-row
+      .copy
+        %h2
+          Möt våra studenter
+        %p
+          Deltagarna på våra bootcamps har ofta helt olika bakgrund. Från entreprenörer som vill utveckla sina egna produkter till de som är mitt i karriären och känner att det är dags för en ny utmaning. Alla har dock en sak gemensamt. De vill jobba med systemutveckling och de vill göra det nu - inte om tre år.
+        .button-row.shift-to-bottom
+          %p
+            = link_to 'Våra studenter', '/students', class: "button button--vertical"
+      .image.show-desktop
+        %img{src: '/images/portraits/Lucia-800.png', width: '300px'}
+      .image.hide-desktop.no-padding
+        %img{src: '/images/portraits/Lucia-800.png', width: '300px'}
+
 = partial :'who_is_it_for'
 = partial :'course_dates'
 = partial :lms
