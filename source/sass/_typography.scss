@@ -66,6 +66,11 @@ h4 {
   }
 }
 
+h5 {
+  @include ma-header(-1);
+  color: $black;
+}
+
 .header-container {
   display: table-cell;
   vertical-align: middle;
