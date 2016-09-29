@@ -12,4 +12,8 @@ p.deprecated-browser-warning {
 p.deprecated-browser-warning a {
   color: #003340; }
 
+.vertical-top {
+  vertical-align: top;
+}
+
 /*# sourceMappingURL=compatibility.css.map */
