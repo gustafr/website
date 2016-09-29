@@ -3,11 +3,11 @@
   .container
     .row
       - if language == :se
+        %h4.leader Kommande bootcamps
         %h2 Kursdatum
-        %h4.leader Distans eller On-site? Du bestämmer
-        %p.copy--left
+        %p.copy
           %strong
-            Anmäl dig i tid - urvalsprocessen tar ca två veckor och du måste gå igenom en intervju innan du blir antagen. Antal utbildningsplatser är begränsat. Du kan ta del av Craft Academy på distans eller genom att närvara i någon av våra utbildningslokaler i Göteborg och Stockholm.
+            För bästa resultat rekommenderar vi att du närvarar i våra lokaler på Chalmers Innovation i Göteborg under hela utbildningstiden. Om du inte har möjlighet går det även att delta i utbildningen på distans.
       - else
         %h2 Class schedule
     .centered-row
@@ -28,13 +28,16 @@
           - Intake.future_dates.each do |intake|
             %tr
               - if language == :se
-                %td{data:{header: 'Förberedande kurs'}}= intake.precourse_start_date.strftime('%-d %B %Y')
-                %td
-                  %strong{data:{header: 'Kursstart'}}= intake.start_date.strftime('%-d %B %Y')
-                %td{data:{header: 'Examen'}}= intake.end_date.strftime('%-d %B %Y')
+                %td{data:{header: 'Förberedande kurs'}}= intake.precourse_start_date.strftime('%-d %b %Y')
+                %td{data:{header: 'Kursstart'}}= intake.start_date.strftime('%-d %b %Y')
+                %td{data:{header: 'Examen'}}= intake.end_date.strftime('%-d %b %Y')
                 %td{data:{header: 'Plats'}}= intake.locations
               -else
                 %td{data:{header: 'Prep-Course start'}}= intake.precourse_start_date.strftime('%-d %B %Y')
                 %td
                   %strong{data:{header: 'Course start'}}= intake.start_date.strftime('%-d %B %Y')
                 %td{data:{header: 'Graduation'}}= intake.end_date.strftime('%-d %B %Y')
+    .row
+      - if language == :se
+        %h4 Ansök i god tid, antal utbildningsplatser är begränsat.
+        = link_to 'Ansök nu', config.apply_form_url, class: 'button button--vertical'
