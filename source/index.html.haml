@@ -35,9 +35,9 @@
           %p
             = link_to 'Våra studenter', '/students', class: "button button--vertical"
       .image.show-desktop
-        %img{src: '/images/portraits/Lucia-400.png'}
+        %img= image_tag ('people/Lucia-400.png')
       .image.hide-desktop.no-padding
-        %img{src: '/images/portraits/Lucia-400.png'}
+        %img= image_tag ('/people/Lucia-400.png')
 
 %section.hero-splash-white{style: "background-image: url(#{image_path('backgrounds/ipad-fade.jpg')});"}
   .container

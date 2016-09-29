@@ -4,7 +4,7 @@
   .container
     .profile-row
       .image.show-desktop
-        = image_tag("portraits/#{grad[:image]}")
+        = image_tag("people/#{grad[:image]}")
       .copy
         %h4.leader Möt våra studenter
         %h1= "#{grad[:first_name]} #{grad[:last_name]}"
@@ -12,7 +12,7 @@
         %blockquote= grad[:testimonial]
         - next_grad = next_graduate(grad)
         .image.hide-desktop.no-padding
-          = image_tag("portraits/#{grad[:image]}")
+          = image_tag("people/#{grad[:image]}")
 %hr
 
 %section.no-padding-top
@@ -23,8 +23,8 @@
           %dt= qa[:question]
           %dd= markdown qa[:answer]
     .button-row
-      = link_to 'Tillbaka', "/students", class: "button button--horizontal"
-      = link_to 'Nästa inlägg', "/case-studies/#{graduate_slug(next_grad)}", class: "button button--vertical"
+      = link_to 'Tillbaka', '/students', class: 'button button--horizontal'
+      = link_to 'Nästa inlägg', "/case-studies/#{graduate_slug(next_grad)}", class: 'button button--vertical'
 
 = partial :'apply'
 
