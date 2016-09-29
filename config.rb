@@ -81,6 +81,8 @@ data.graduates.each do |grad|
   end
 end
 
+page '/english/*', layout: 'en_layout'
+
 set :css_dir, 'sass'
 set :js_dir, 'javascripts'
 set :partials_dir, 'partials'
