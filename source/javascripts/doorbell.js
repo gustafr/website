@@ -1,12 +1,12 @@
 window.doorbellOptions = {
   strings: {
-    'feedback-button-text': 'Har du frågor?',
+    'feedback-button-text': 'Har du Frågor?',
 
-    'title': 'Feedback',
-    'intro-text': 'Har du en fråga? Feedback? Vill du bara säga hej?',
-    'feedback-textarea-placeholder': 'Skicka oss dina åsikter eller förslag...',
+    'title': 'Kontakta oss',
+    'intro-text': 'Vill du veta mer om Craft Academy Bootcamp? Ställ din fråga nedan eller ring oss på 0735-403500',
+    'feedback-textarea-placeholder': 'Din fråga...',
     // 'feedback-label': '(empty)',
-    'email-input-placeholder': 'Din mailaderss',
+    'email-input-placeholder': 'Din mailadress',
     // 'email-label': '(tom)',
     'attach-a-screenshot': 'Visa oss vad du tittar på',
     'submit-button-text': 'Skicka',
