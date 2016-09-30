@@ -1,6 +1,6 @@
 window.doorbellOptions = {
   strings: {
-    'feedback-button-text': 'Har du Frågor?',
+    'feedback-button-text': 'Har du frågor?',
 
     'title': 'Kontakta oss',
     'intro-text': 'Vill du veta mer om Craft Academy Bootcamp? Ställ din fråga nedan eller ring oss på 0735-403500',
