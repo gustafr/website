@@ -28,17 +28,11 @@
     = partial :'english/partials/navigation'
     = yield
 
-    = partial :'footer'
+    = partial :'english/partials/footer'
 
     = javascript_include_tag 'all'
-
-    - if international_pages?
-      = javascript_include_tag 'doorbell_sa'
-    - elsif current_page_is_sa?
-      = javascript_include_tag 'mailchimp_sa'
-    - else
-      = javascript_include_tag 'doorbell'
-      = javascript_include_tag 'mailchimp'
+    = javascript_include_tag 'doorbell_en'
+    = javascript_include_tag 'mailchimp'
 
     - if config.show_baseline_grid
       %script{:src => 'http://files.keyes.ie/things/baseliner/baseliner-latest.min.js'}

@@ -81,6 +81,13 @@ data.graduates.each do |grad|
   end
 end
 
+data.graduates_en.each do |grad|
+  if grad[:case_study]
+    url_slug = graduate_slug(grad)
+    proxy "/english/students/#{url_slug}.html", '/english/case-studies/template.html', locals: { grad: grad }, ignore: true
+  end
+end
+
 page '/english/*', layout: 'en_layout'
 
 set :css_dir, 'sass'
