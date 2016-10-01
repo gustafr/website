@@ -1,6 +1,8 @@
 - language ||= :se
-%section{class: language == :se ? 'hero' : ''}
-  .container
+- color ||= ''
+
+%section{class: language == :se ? 'hero' : '', style: current_page_is_campaign_page? ? "background-color: #{color} !important"  : ''}
+  .container{style: current_page_is_campaign_page? ? "background-color: #{color} !important"  : ''}
     .row
       - if language == :se
         %h4.leader Kommande bootcamps

@@ -2,7 +2,7 @@
 %section.hero-splash{style: "background-image: url(#{image_path('backgrounds/di_startup_tour_splash_1.png')});"}
   .container
     .centered-row
-      %h4.leader Ta kontroll över framtiden.
+      %h4.leader Förbättra oddsen att lyckas med din Startup
       %h1
         = 'Lär dig koda på 12 veckor'.html_safe
       %p
@@ -17,8 +17,8 @@
   .container
     .centered-row
       %article
-        %h4.leader Bli en del av lösningen
-        %h2 Det råder brist på utvecklare
+        %h4.leader{style: 'color: #55bfcc;'} Bli en del av lösningen
+        %h2{style: 'color: #55bfcc;'} Det råder brist på utvecklare
         %p.copy
           Arbetsgivare runt om i landet söker med ljus och lykta efter juniora systemutvecklare. Med vår hjälp får du under tre månader lära dig många av de färdigheter som efterfrågas allra mest. Vi hjälper dig också att hitta ditt första jobb.
         = link_to 'Läs mer', '/students', class: 'button button--vertical'
@@ -49,8 +49,9 @@
           Vi tror att traditionell utbildning lär människor att klara prov, snarare än att ge dem verklig kunskap. Vi har skapat en intensiv och praktiskt inriktad utbildning som gör dig anställningsbar på bara 12 veckor.
         = link_to 'Vår läroplan', '/curriculum.html', class: 'button button--vertical'
 
-= partial :'course_dates'
+= partial :'course_dates', locals: { color: '#55bfcc' }
 = partial :'what_you_get'
-= partial :'apply'
+= partial :'apply', locals: {background_image: 'di_startup_tour_splash_2.png'}
+= partial :footer, locals: { color: '#55bfcc' }
 
 

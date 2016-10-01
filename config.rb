@@ -68,6 +68,10 @@ helpers do
     current_page.url.match(/pretoria|south-africa/)
   end
 
+  def current_page_is_campaign_page?
+    current_page.url.match(/di-digital|stockholmer/)
+  end
+
   def international_pages?
     current_page.url.match(/international|pretoria|south-africa/)
   end
