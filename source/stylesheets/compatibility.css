@@ -12,4 +12,18 @@ p.deprecated-browser-warning {
 p.deprecated-browser-warning a {
   color: #003340; }
 
+.vertical-top {
+  vertical-align: top;
+}
+
+.no-min-height {
+  min-height: 0px !important;
+}
+
+.graduate {
+  max-width: 90% !important;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 /*# sourceMappingURL=compatibility.css.map */

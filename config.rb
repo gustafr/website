@@ -68,6 +68,10 @@ helpers do
     current_page.url.match(/pretoria|south-africa/)
   end
 
+  def current_page_is_campaign_page?
+    current_page.url.match(/di-digital|stockholmer/)
+  end
+
   def international_pages?
     current_page.url.match(/international|pretoria|south-africa/)
   end
@@ -78,6 +82,13 @@ data.graduates.each do |grad|
   if grad[:case_study]
     url_slug = graduate_slug(grad)
     proxy "/case-studies/#{url_slug}.html", '/case-studies/template.html', locals: { grad: grad }, ignore: true
+  end
+end
+
+data.graduates_en.each do |grad|
+  if grad[:case_study]
+    url_slug = graduate_slug(grad)
+    proxy "/english/students/#{url_slug}.html", '/english/case-studies/template.html', locals: { grad: grad }, ignore: true
   end
 end
 

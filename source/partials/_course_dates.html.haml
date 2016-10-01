@@ -1,6 +1,8 @@
 - language ||= :se
-%section{class: language == :se ? 'hero' : ''}
-  .container
+- color ||= ''
+
+%section{class: language == :se ? 'hero' : '', style: current_page_is_campaign_page? ? "background-color: #{color} !important"  : ''}
+  .container{style: current_page_is_campaign_page? ? "background-color: #{color} !important"  : ''}
     .row
       - if language == :se
         %h4.leader Kommande bootcamps
@@ -12,7 +14,7 @@
         %h2 Course Dates
         %p.copy--left
           %strong
-            Apply in time - the selection process takes approximately two weeks and we will interview you before you are accepted. There are at most ten spots in each cohort.
+            Apply in time - the selection process takes approximately two weeks and we will interview you before you are accepted. There are at most twelve spots in each cohort.
     .centered-row
       %table.responsive-table
         %thead

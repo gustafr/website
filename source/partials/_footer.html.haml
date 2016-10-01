@@ -1,5 +1,6 @@
-%footer{role: 'contentinfo'}
-  .container
+- color ||= ''
+%footer{role: 'contentinfo', style: current_page_is_campaign_page? ? "background-color: #{color} !important" : ''}
+  .container{style: current_page_is_campaign_page? ? "background-color: #{color} !important"  : ''}
     .footer-links
       - if current_page_is_sa?
         %ul.column

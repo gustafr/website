@@ -2,9 +2,10 @@
   last_name: De Mojà
   image: Lucia-400.png
   summary: Utbildad molekylärbiolog
-  testimonial: Det är värt att hålla sig fast eftersom resultaten kommer i slutet.
+  testimonial: Rådet jag vill ge till framtida studenter är att aldrig ge upp. Det är värt att hålla sig fast eftersom resultaten kommer i slutet.
   cohort_month: September
   cohort_year: 2016
+  blog_link: 'https://medium.com/@luciademoja'
   categories:
     - career changer
     - female
@@ -41,6 +42,27 @@
     - question: Vilket råd skulle du ge någon som funderar på att vara med på en Bootcamp?
       answer: Enkelt. Lägg all tid och all fokus på detta under den tid det varar. Ät, sov, skit kod, helt sonika. Fråga mycket, se till att du förstår innan du släpper greppet och går vidare. Se dock till att aldrig ställa samma fråga två gånger av ren slöhet (finns inget som retar en lärare så mycket som slöa elever...).
 
+- first_name: Mikael
+  last_name: Feher
+  image: Mikael-400.png
+  summary: Med kod som passion
+  testimonial: Att vara med på en Bootcamp är ungefär som att dricka vatten från en brandslang. Men nu har jag färdigheter som gör det möjligt för mig att göra det jag älskar, nämligen att koda.
+  cohort_month: September
+  cohort_year: 2016
+  categories:
+    - career changer
+  case_study:
+    - question: Kan du berätta lite om vem du är och vad du jobbat med tidigare?
+      answer: Jag är en 39 årig gift småbarnsförälder med karriär som både lokförare och ordningsvakt bakom mig.
+    - question: Under sommaren 2016 deltog du i en bootcamp som Craft Academy anordnade, vad fick dig att bestämma dig för att lära dig att koda?
+      answer: När jag bestämde mig för att satsa på en IT karriär så började jag plugga IT-Säkerhet och det var under den utbildningen som jag provade på att koda. Från att lära mig lite kod som komplement till säkerhetsdelen fastnade jag fullständigt för programmering. Jag kände att kodandet var det enda jag ville hålla på med. Bootcampsformen gav mig allt jag ville ha av en utbildning; en utmanande utbildning som var kort.
+    - question: Vad skulle du säga var det viktigaste effekten av att du deltog på Craft Academy?
+      answer: Att jag på endast 3 månader fick tillräckliga kunskaper för att kunna programmera egna applikationer och att kunna jobba som utvecklare.
+    - question: Vad skulle du säga var det mest utmanande med den utbildningsmodell som Craft Academy jobbar efter?
+      answer: Den enorma mängden information och kunskap som skall införskaffas i ett extremt högt tempo. Ungefär som att dricka från en brandslang.
+    - question: Vilket råd skulle du ge någon som funderar på att vara med på en Bootcamp?
+      answer: Tänk igenom det extremt noggrant och sen tänk igenom det en massa gånger till! Bootcampet kräver en enorm uppoffring i tid, engagemang och frustration. Om du inte är beredd att lägga all din vakna tid på bootcampet så slösar du bort din tid. 12 veckor är inte lång tid så det gäller att köra hårt för att det skall löna sig. Jag offrade 3 månader av mitt liv, men nu har jag färdigheter som gör det möjligt för mig att göra det jag älskar, nämligen att koda.
+
 - first_name: Gustaf
   last_name: Rudholm
   image: Gustaf-400.png
@@ -50,7 +72,6 @@
   cohort_year: 2015
   categories:
     - career changer
-    - female
   case_study:
       - question: Kan du berätta lite om vem du är och vad du jobbat med tidigare?
         answer: Jag heter Gustaf Rudholm, är 34 år gammal och jag har jobbat med e-handel sedan innan förra it-craschen. Jag började min bana på elektronikkedjan NetOnNet 1999 och där blev jag kvar i sju år. Med mig fick jag en massa nyttiga erfarenheter inom digital handel och affärsmannaskap. 2006 började min bana som entreprenör då jag sa upp mig från tryggheten och startade RUM21.se, en möbelbutik på nätet. 2011 tog jag in CDON Group som delägare och 2014 sålde jag hela mitt innehav till Royal Design Group. Jag är även medgrundare till CareOfCarl.com, en av nordens ledande butiker för herrkläder på nätet.
