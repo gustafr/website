@@ -18,7 +18,7 @@ module GraduatesHelper
 
   def next_en_graduate(current_graduate)
     index = en_graduates.find_index { |graduate| graduate == current_graduate }
-    en_graduates[index.next % graduates.count]
+    en_graduates[index.next % en_graduates.count]
   end
 
   private
