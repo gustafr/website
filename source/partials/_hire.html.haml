@@ -1,0 +1,14 @@
+%section.hero--apply{style: backgrounded ? "background-image: url(#{image_path('backgrounds/splash_2.jpg')});": ''}
+  .container
+    .centered-row
+      .column
+        %h4 Letar du efter utvecklare till ditt team?
+        %h2 Bli en Hiring partner
+        %p
+          %strong
+            Vi erbjuder en ny väg att hitta medarbetare till din organisation. Med oss lär du känna kandidaterna innan du ger dem ett erbjudande.
+    .button-row
+      %p
+        = link_to 'Kontakta oss', 'http://doodle.com/makers_thomas', class: 'button button--horizontal', target: '_blank'
+        = link_to 'Jag vill anställa', config.hire_form_url, class: 'button button--vertical button--large', target: '_blank'
+        = link_to 'Läs mer', '/employers.html', class: 'button button--horizontal'
