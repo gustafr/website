@@ -29,7 +29,7 @@
         %h4 Erfarenhet
         %p Alla är nybörjare någon gång - även studenter på Craft Academy. Det som skiljer dem från andra juniora utvecklare är att de har skrivit kod från dag ett och har, efter avslutad utbildning hos oss, minst två projekt i sin portfölj.
 
-%section.backgrounded
+%section
   .container
     .row
       %h2 Att vara en Hiring Partner
@@ -90,29 +90,6 @@
                 Vi har en job board där vi presenterar våra Hiring Partners och deras aktuella rekryteringar där ni kan publicera information allt efterssom era behov förändras.
             %td Ingen
             %td Utan begränsning
-
-%section
-  .container
-    %h2.alt-color Inga förbindelser
-    %h4.subheader Vi tar betalt först när du hittar någon som passar och skriver ett ansällningsavtal
-
-    .two-width-row
-      .column.vertical-center
-        %h4.leader Vårt arvode
-        %h4.leader vid rekrytering
-        %h1.statistic 20%
-        %h4.subheader av första årets lönekostnad
-        .button-row
-          =link_to 'Kontakta mig', 'http://doodle.com/makers_thomas', class: 'button button--horizontal'
-      .column
-        .copy.copy--left
-          %p
-            Till skillnad från andra utbildningsanordnare tar vi ut ett arvode när du rekryterar någon av våra deltagare.
-            Vi gör det först när ni faktiskt hittar någon som du tror kan passa i ditt team och skapa mervärden för din organisation.
-          %p
-            Vårt arvode är också något större än vad vissa rekryteringsfirmor tar ut.
-            Det beror på att vi erbjuder större mervärden som gör er rekryteringsprocess säkrare.
-            Vi känner våra deltagare väl och förutom att vi har koll på deras tekniska kompetens, vet vi även hur de fungerar i att jobba i grupp,
-            hur de hanterar stress och hur de jobbar med att lösa problem.
+= partial :'_hire'
 
 
