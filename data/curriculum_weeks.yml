@@ -3,7 +3,7 @@
   blurb: "Du måste få en solid kunskapsbas att stå på inför själva kursen. Därför inleder vi campet med en förberedande del på 4 veckor. Under den förberedande kursen arbetar du på distans i ett nära samarbete med din coach och i team med andra deltagare. Du deltar i en till två fjärrmöten dagligen och förväntas kunna ägna mellan 15 till 20 timmar per vecka med att gå igenom material, lösa uppgifter och delta i parprogrammering."
 
 - title: Vecka 1
-  summary: Testdriven utveckling och objektorienterad programmering
+  summary: Testdriven utveckling och introduktion till Ruby
   blurb: Första veckans utmaning handlar om att bygga en enkel Bankomatsimulator. Låter kanske trivialt men utmaningen ligger i
    att förstå hur en vardaglig situation kan se ut när man tänker i programmeringstermer och hur olika objekt interagerar med varandra.
    Under veckan introducerar vi en mängd nya begrepp och koncept som lägger grunden för din fortsatta utveckling. Vi praktiserar par programmering
@@ -34,7 +34,7 @@
    Vi introducerar mer avancerade JavaScript-baserade ramverk (jQuery) och CSS ramverk (Foundation, Bootstrap) och visat hur vi kan förbättra användarupplevelsen i våra applikationer.
 
 - title: Vecka 5
-  summary: Ruby on Rails
+  summary: Software as a Service med Ruby on Rails
   blurb: Den här veckan introducerar vi deltagarna till Ruby on Rails - ett ramverk som hjälper programmeraren att följa designmönstret Model-View-Controller (MVC) och lär dem att jobba
    efter grundprinciperna Convention Over Configuration (Konvention före konfiguration) och Don't Repeat Yourself (DRY) som går ut på att motverka duplicering av kod.
    Vi introducerar också mer omfattande teststrategier och befäster deltagarnas kunskaper för hur de använder tester i sin utvecklingsprocess.

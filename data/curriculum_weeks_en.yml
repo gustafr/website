@@ -19,7 +19,7 @@
   blurb: During Week Four, you'll build your own portfolio site using a static website framework called Middleman. We go in-depth with HTML, learn a markup language called HAML, introduce the Javascript framework JQuery and style portfolios with a CSS framework. At the end of the week, you'll have a professional portfolio site, which you will fill with the projects you complete over the rest of the course.
 
 - title: Week 5
-  summary: Ruby on Rails
+  summary: Software as a Service with Ruby on Rails
   blurb: This week we introduce Ruby on Rails, a popular and in-demand framework that allows programmers to build complex, exciting web applications. We present more complex testing strategies and help you understand how testing can greatly improve your workflow. This week we deepen our knowledge of external libraries (gems), APIs, websockets, etc.
 
 - title: Week 6
