@@ -43,18 +43,20 @@
 
 - title: Vecka 6
   summary: Mid Course Project
-  blurb: Halvvägs genom campet är det tid för deltagarna att sätta sina kunskaper i praktiken och släppa taget om coachens trygga vägledning.
-   Det är dags att jobba med ett eget projekt. Syftet är självklart att konsolidera sina kunskaper och börja bygga upp en egen projektportfölj.
-   Under veckan håller vi även föreläsningar och arbetspass i Kanban.
+  blurb: Halvvägs genom kursen är det dags att omsätta dina kunskaper i praktik och släppa taget om coachens trygga vägledning.
+    Det är dags för dig att tänka ut, planera för, och bygga ditt eget projekt. Syftet är självklart att konsolidera dina kunskaper och börja bygga upp en egen projektportfölj.
+    Du jobbar i team och bestämma själva vilken kod ni ska skriva och vilka funktioner som ska utvecklas, men även fatta beslut om vilka planeringsverktyg ni vill använda och
+    när och hur man delegerar och fördelar arbetet. Det är teamet håller i spakarna - coacherna håller ett vakande öga för att se till att alla gör framsteg och hjälper till när det behövs.
+    Det är en stor vecka här på Craft Academy.
 
 
-- title: Vecka 7 & 8
+- title: Vecka 7
   summary: Mobila applikationer
   blurb: Den här veckan fördjupar vi deltagarnas kunskaper inom JavaScript genom att introducera AngularJS, ett populärt front-end ramverk.
-   Vi tittar även på Ionic som är ett ramverk för utveckling av mobila applikationer (hybridappar för både Android och iOS).
-   Veckoutmaningen är att koppla ihop SlowFood Online API'n med en mobil applikation och låta användare göra beställningar med sin smartphone.
+    Vi tittar även på Ionic som är ett ramverk för utveckling av mobila applikationer utan att behöva arbeta med inhemska språk för iOS eller Android.
+    I slutet av veckan kommer du ha utvecklat och distribuerat två applikationer som kan ses på en mobil enhet.
 
-- title: Vecka 9 & 10
+- title: Vecka 8, 9, 10
   summary: Avancerad Rails, API'er och Agila utvecklingsmetoder
   blurb: Allt handlar om att plocka på sig erfarenhet och kompetens (som vi definierar kunskap omsatt i praktik).
    Under två veckor bygger vi en avancerad marketplace-applikation som en fortsättning på vår SlowFood utmaning.
@@ -66,12 +68,10 @@
   blurb: Vid det här läget är deltagarna mer eller mindre självgående och det är åter igen dags att omsätta förgående veckors kunskaper i praktisk tillämpning.
    Deras produktportfölj kommer att utökas med ytterligare en applikation.
    I grupper om tre till fyra jobbar de fram en så kallad minimum viable product (MVP) som de sätter i produktion på en egen virtuell server (Digital Ocean).
-   På onsdagen håller vi i vår Karriärdag och på fredagen är det examination och Demodag. Det är mycket som ska klaffa och det finns många anledningar att fira.
-
 
 - title: Vecka 12
-  summary: Wrap up
-  blurb: Den här veckan används till att finslipa sina slutprojekt, göra klart evenuella utmaningar som man inte hann med under kursen och förbereda sig för sin karriär som utvecklare.
-   På onsdagen håller vi i vår Karriärdag och på fredagen är det examination och Demodag. Det är mycket som ska klaffa och det finns många anledningar att fira.
-
+  summary: Karriärhandledning
+  blurb: Samtidigt som du är med och jobbar på ditt slutprojekt under den sista veckan av kursen, flyttar vi fokus lite för att prata om karriär.
+    Du får en översyn av di portfölj och CV. Vi går igenom möjliga scenarios för anställningsprocessen och intervjun och håller flera gruppsamtal om din framtid som utvecklare.
+    På examensdagen korkar vi naturligtvis upp champagnen för att fira våra nya juniorutvecklare.
 
