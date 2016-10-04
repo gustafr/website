@@ -16,6 +16,9 @@
           = link_to 'Läroplan', '/curriculum.html'
         %li{ class: current_if_current_page(current_page, '/payment/') }
           = link_to 'Priser'.mb_chars.upcase, '/payment.html'
+        %li
+          = link_to flag_image(:british), '/english'
+
 
 %header{class: 'navigation auto-hide', role: 'banner'}
   %nav{role: 'navigation'}
@@ -26,20 +29,12 @@
           = link_to 'Apply'.mb_chars.upcase, config.apply_sa_form_url, class: current_page_is_campaign_page? ? 'button button--horizontal' : 'button button--vertical', target: '_blank'
     - else
       %ul.navigation-menu
-        - if current_page.url == '/students/'
-          %li
-            = link_to 'Class'.mb_chars.upcase, class_site_url
-        - else
-          %li
-            = link_to 'Studenter'.mb_chars.upcase, '/students.html'
+        %li{ class: current_if_current_page(current_page, '/students/') }
+          = link_to 'Studenter'.mb_chars.upcase, '/students.html'
         %li{ class: current_if_current_page(current_page, '/employers/') }
           = link_to 'Arbetsgivare'.mb_chars.upcase, '/employers.html'
-        - if current_page.url == '/curriculum/'
-          %li
-            = link_to 'Class'.mb_chars.upcase, class_site_url
-        - else
-          %li
-            = link_to 'Läroplan'.mb_chars.upcase, '/curriculum.html'
+        %li{ class: current_if_current_page(current_page, '/curriculum/') }
+          = link_to 'Läroplan'.mb_chars.upcase, '/curriculum.html'
         %li{ class: current_if_current_page(current_page, '/payment/') }
           = link_to 'Priser'.mb_chars.upcase, '/payment.html'
         %li
@@ -49,4 +44,4 @@
             = link_to 'Anställ'.mb_chars.upcase, config.hire_form_url, class: 'button button--vertical', target: '_blank'
         - else
           %li{ class: current_if_current_page(current_page, '/apply/') }
-            = link_to 'Ansök'.mb_chars.upcase, config.apply_form_url, class: current_page_is_campaign_page? ? 'button button--horizontal' : 'button button--vertical'
+            = link_to 'Ansök'.mb_chars.upcase, config.apply_form_url, class: current_page_is_campaign_page? ? 'button button--horizontal' : 'button button--vertical', target: '_blank'

@@ -8,13 +8,15 @@
       %li{ class: current_if_current_page(current_page, '/') }
         = link_to 'Home', '/english'
       %li{ class: current_if_current_page(current_page, '/english/about_us/') }
-        = link_to 'About Us', '/about_us.html'
+        = link_to 'About Us', '/english/about_us.html'
       %li{ class: current_if_current_page(current_page, '/english/employers/') }
-        = link_to 'Employers', '/employers.html'
+        = link_to 'Employers', '/english/employers.html'
       %li{ class: current_if_current_page(current_page, '/english/curriculum/') }
-        = link_to 'Curriculum', '/curriculum.html'
+        = link_to 'Curriculum', '/english/curriculum.html'
       %li{ class: current_if_current_page(current_page, '/english/payment/') }
         = link_to 'Investment'.mb_chars.upcase, '/english/payment.html'
+      %li
+        = link_to flag_image(:swedish), '/'
 
 %header{class: 'navigation auto-hide', role: 'banner'}
   %nav{role: 'navigation'}
@@ -28,8 +30,8 @@
         = link_to 'Curriculum'.mb_chars.upcase, '/english/curriculum.html'
       %li{ class: current_if_current_page(current_page, '/english/payment/') }
         = link_to 'Prices'.mb_chars.upcase, '/english/payment.html'
-      -#%li
-      -#  = link_to flag_image(:swedish), '/'
+      %li
+        = link_to flag_image(:swedish), '/'
       - if current_page.url == '/english/employers/'
         %li{ class: current_if_current_page(current_page, '/english/apply/') }
           = link_to 'Hire'.mb_chars.upcase, config.hire_form_url, class: 'button button--vertical', target: '_blank'
