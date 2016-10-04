@@ -16,6 +16,9 @@
           = link_to 'Läroplan', '/curriculum.html'
         %li{ class: current_if_current_page(current_page, '/payment/') }
           = link_to 'Priser'.mb_chars.upcase, '/payment.html'
+        %li
+          = link_to flag_image(:british), '/english'
+
 
 %header{class: 'navigation auto-hide', role: 'banner'}
   %nav{role: 'navigation'}
